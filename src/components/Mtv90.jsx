@@ -42,12 +42,17 @@ const Mtv90 = ({ autoUnmute = false }) => {
   }, [currentVideo]);
 
   // Manejar cuando termina un video - Memoizar para evitar re-renders
+  // IMPORTANTE: Este callback se ejecuta INMEDIATAMENTE cuando el video termina
+  // para prevenir que YouTube muestre su pantalla de recomendaciones
   const handleVideoEnd = React.useCallback(() => {
+    // Seleccionar siguiente video INMEDIATAMENTE, sin delays
+    selectNext();
+    
+    // Actualizar estados después de seleccionar el siguiente video
     setIsMuted(true); // Nuevo video empieza mute (requerido para autoplay)
     lastMutedStateRef.current = true; // Actualizar ref también
     setPlayerReady(false); // Resetear estado para el nuevo video
     unmuteFunctionRef.current = null; // Limpiar función unmute (se actualizará cuando el nuevo video esté listo)
-    selectNext();
   }, [selectNext]);
 
   // Manejar errores (video no disponible, restringido, etc.) - Memoizar para evitar re-renders
@@ -200,13 +205,16 @@ const Mtv90 = ({ autoUnmute = false }) => {
   
   return (
     <div className="relative w-full h-screen bg-black overflow-hidden">
-      <VideoPlayer
-        key={currentVideo.youtubeId} // Key para forzar remount cuando cambia el video
-        videoId={currentVideo.youtubeId}
-        onVideoEnd={handleVideoEnd}
-        onError={handleVideoError}
-        onUnmute={handleUnmuteCallback}
-      />
+      {/* Ocultar reproductor anterior inmediatamente cuando cambia el video */}
+      <div className="relative w-full h-full">
+        <VideoPlayer
+          key={currentVideo.youtubeId} // Key para forzar remount cuando cambia el video
+          videoId={currentVideo.youtubeId}
+          onVideoEnd={handleVideoEnd}
+          onError={handleVideoError}
+          onUnmute={handleUnmuteCallback}
+        />
+      </div>
       <ChannelOverlay video={currentVideo} channelName="MTV 90" />
       
       {/* Mostrar botón de unmute solo si el video está mute, el reproductor está listo, y es la primera vez */}

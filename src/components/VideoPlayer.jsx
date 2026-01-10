@@ -61,7 +61,35 @@ const VideoPlayer = ({ videoId, onVideoEnd, onError, onUnmute }) => {
 
   return (
     <div className="absolute inset-0 w-full h-full bg-black">
-      <div ref={containerRef} className="w-full h-full" />
+      <div 
+        ref={containerRef} 
+        className="w-full h-full"
+        style={{
+          overflow: 'hidden',
+          position: 'relative',
+        }}
+      />
+      {/* CSS para ocultar recomendaciones de YouTube cuando el video termina */}
+      <style>{`
+        /* Asegurar que el iframe de YouTube ocupe todo el espacio */
+        iframe[id^="youtube-player"] {
+          position: absolute !important;
+          top: 0 !important;
+          left: 0 !important;
+          width: 100% !important;
+          height: 100% !important;
+          border: none !important;
+        }
+        
+        /* Ocultar overlays de recomendaciones de YouTube usando CSS */
+        /* Nota: Esto puede no funcionar completamente debido a same-origin policy,
+           pero ayuda a ocultar algunos elementos */
+        div[id^="youtube-player"] .ytp-endscreen-content,
+        div[id^="youtube-player"] .ytp-ce-element,
+        div[id^="youtube-player"] .ytp-pause-overlay {
+          display: none !important;
+        }
+      `}</style>
       {!playerReady && (
         <div className="absolute inset-0 flex items-center justify-center text-white z-20 bg-black">
           <p>Cargando video...</p>

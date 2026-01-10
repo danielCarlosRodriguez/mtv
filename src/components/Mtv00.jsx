@@ -42,12 +42,17 @@ const Mtv00 = ({ autoUnmute = false }) => {
   }, [currentVideo]);
 
   // Manejar cuando termina un video - Memoizar para evitar re-renders
+  // IMPORTANTE: Este callback se ejecuta INMEDIATAMENTE cuando el video termina
+  // para prevenir que YouTube muestre su pantalla de recomendaciones
   const handleVideoEnd = React.useCallback(() => {
+    // Seleccionar siguiente video INMEDIATAMENTE, sin delays
+    selectNext();
+    
+    // Actualizar estados después de seleccionar el siguiente video
     setIsMuted(true); // Nuevo video empieza mute (requerido para autoplay)
     lastMutedStateRef.current = true; // Actualizar ref también
     setPlayerReady(false); // Resetear estado para el nuevo video
     unmuteFunctionRef.current = null; // Limpiar función unmute (se actualizará cuando el nuevo video esté listo)
-    selectNext();
   }, [selectNext]);
 
   // Manejar errores (video no disponible, restringido, etc.) - Memoizar para evitar re-renders

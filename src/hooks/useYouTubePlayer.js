@@ -109,16 +109,19 @@ export function useYouTubePlayer(videoId, options = {}) {
         videoId: videoId,
         playerVars: {
           autoplay: 1, // Siempre autoplay
-          controls: 0,
+          controls: 0, // Sin controles
           loop: 0,
           modestbranding: 1,
           playsinline: 1,
-          rel: 0,
+          rel: 0, // No mostrar videos relacionados al final
           enablejsapi: 1, // Necesario para controlar el reproductor
-          iv_load_policy: 3,
-          fs: 1,
+          iv_load_policy: 3, // Ocultar anotaciones
+          fs: 1, // Permitir pantalla completa
           mute: 1, // Mute inicial para permitir autoplay
           start: 0,
+          disablekb: 1, // Deshabilitar controles de teclado
+          cc_load_policy: 0, // No cargar subtítulos automáticamente
+          origin: window.location.origin, // Origen para evitar errores de postMessage
         },
         events: {
           onReady: (event) => {
@@ -164,9 +167,18 @@ export function useYouTubePlayer(videoId, options = {}) {
             const state = event.data;
             
             if (state === window.YT.PlayerState.ENDED) {
-              // Usar el callback desde el ref para evitar dependencias
+              // IMPORTANTE: Llamar inmediatamente al callback cuando el video termina
+              // Esto previene que YouTube muestre su pantalla de recomendaciones
+              // React actualizará el componente y cambiará el key, lo que destruirá
+              // el reproductor anterior y creará uno nuevo con el siguiente video
               if (onVideoEndRef.current) {
-                onVideoEndRef.current();
+                // Usar requestAnimationFrame para asegurar que se ejecute lo más rápido posible
+                // pero después de que el evento termine de procesarse
+                requestAnimationFrame(() => {
+                  if (onVideoEndRef.current) {
+                    onVideoEndRef.current();
+                  }
+                });
               }
             } else if (state === window.YT.PlayerState.PLAYING) {
               setPlayerReady(true);
