@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Cargar fuente Kabel Black Regular */
+@font-face {
+  font-family: 'Kabel Black';
+  src: url('/fonts/kabel-black-regular.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}

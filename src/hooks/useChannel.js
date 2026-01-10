@@ -1,0 +1,41 @@
+import { useState, useEffect } from 'react';
+import { loadVideosByYears, CHANNELS } from '../utils/videoLoader';
+
+/**
+ * Hook para cargar y gestionar los videos de un canal
+ * @param {string} channelKey - Clave del canal (ej: 'MTV90', 'MTV00')
+ * @returns {Object} - { videos, loading, error }
+ */
+export function useChannel(channelKey) {
+  const [videos, setVideos] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const channel = CHANNELS[channelKey];
+    
+    if (!channel) {
+      setError(`Canal '${channelKey}' no encontrado`);
+      setLoading(false);
+      return;
+    }
+
+    async function loadChannelVideos() {
+      try {
+        setLoading(true);
+        setError(null);
+        const loadedVideos = await loadVideosByYears(channel.years);
+        setVideos(loadedVideos);
+      } catch (err) {
+        console.error('Error al cargar canal:', err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadChannelVideos();
+  }, [channelKey]);
+
+  return { videos, loading, error };
+}
