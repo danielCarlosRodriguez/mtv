@@ -52,11 +52,24 @@ const ChannelOverlay = ({ video, channelName = 'MTV 90' }) => {
 
       {/* Metadata del video en esquina inferior izquierda */}
       {(artist || title || year) && (
-        <div className="absolute bottom-4 left-4">
-          <div className="max-w-md" style={{ fontFamily: "'Kabel Black', sans-serif" }}>
+        <div 
+          className="absolute bottom-8 left-4 right-4 sm:bottom-4 sm:left-4 sm:right-auto sm:pb-0"
+          style={{
+            paddingBottom: 'calc(2rem + env(safe-area-inset-bottom, 0px))'
+          }}
+        >
+          <div 
+            className="max-w-[calc(100%-2rem)] sm:max-w-md" 
+            style={{ 
+              fontFamily: "'Kabel Black', sans-serif",
+              wordWrap: 'break-word',
+              overflowWrap: 'break-word',
+              hyphens: 'auto'
+            }}
+          >
             {artist && (
               <p 
-                className="text-white text-2xl font-semibold mb-1.5"
+                className="text-white text-lg sm:text-2xl font-semibold mb-1 sm:mb-1.5 leading-tight sm:leading-normal break-words"
                 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, 0.8)' }}
               >
                 {artist}
@@ -64,7 +77,7 @@ const ChannelOverlay = ({ video, channelName = 'MTV 90' }) => {
             )}
             {title && (
               <p 
-                className="text-white text-xl opacity-90 mb-1.5"
+                className="text-white text-base sm:text-xl opacity-90 mb-1 sm:mb-1.5 leading-tight sm:leading-normal break-words"
                 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, 0.8)' }}
               >
                 {title}
@@ -72,7 +85,7 @@ const ChannelOverlay = ({ video, channelName = 'MTV 90' }) => {
             )}
             {year && (
               <p 
-                className="text-white text-base opacity-75"
+                className="text-white text-sm sm:text-base opacity-75 leading-tight sm:leading-normal break-words"
                 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, 0.8)' }}
               >
                 {year}
