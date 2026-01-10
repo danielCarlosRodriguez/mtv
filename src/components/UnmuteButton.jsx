@@ -6,7 +6,6 @@ import React from 'react';
  */
 const UnmuteButton = ({ onUnmute }) => {
   const handleClick = () => {
-    console.log('[UnmuteButton] Botón de unmute presionado');
     if (onUnmute) {
       onUnmute();
     }

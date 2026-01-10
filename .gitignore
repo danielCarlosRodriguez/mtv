@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Capacitor
+android
+ios
+.capacitor
+
 # Archivos de borrador
 borrador/html/*.html
 borrador/json/*.json
@@ -38,6 +43,7 @@ transformar-1991.js
 transformar-1992.js
 transformar-1993.js
 transformar-1994.js
+transformar-1995.js
 transformar-formato.js
 verificar-estado.js
 verificar-progreso-rapido.js
@@ -51,3 +57,4 @@ monitorear-todos.js
 mover-scripts.js
 ordenar-por-visitas.js
 revertir-transformacion.js
+CAPACITOR_SETUP.md

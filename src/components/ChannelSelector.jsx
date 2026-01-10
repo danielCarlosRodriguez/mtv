@@ -31,7 +31,7 @@ const ChannelSelector = ({ onChannelSelect }) => {
         const videos = await loadVideosByYears(allYears);
         setAllVideos(videos);
       } catch (error) {
-        console.error('Error al cargar videos para selector:', error);
+        setAllVideos([]);
       } finally {
         setLoading(false);
       }
@@ -46,7 +46,7 @@ const ChannelSelector = ({ onChannelSelect }) => {
       const randomVideo = weightedRandomSelect(allVideos);
       setBackgroundVideo(randomVideo);
     }
-  }, [allVideos, backgroundVideo]);
+  }, [allVideos, backgroundVideo, loading]);
 
   // Manejar cuando el reproductor de fondo está listo
   const handleBackgroundUnmuteCallback = React.useCallback((unmuteFn, mutedState) => {

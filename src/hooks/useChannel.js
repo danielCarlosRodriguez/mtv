@@ -25,10 +25,14 @@ export function useChannel(channelKey) {
         setLoading(true);
         setError(null);
         const loadedVideos = await loadVideosByYears(channel.years);
+        
+        // Establecer videos incluso si está vacío (algunos archivos pueden no existir todavía)
         setVideos(loadedVideos);
       } catch (err) {
-        console.error('Error al cargar canal:', err);
-        setError(err.message);
+        // Solo establecer error para errores críticos (red, etc.)
+        // Los errores de archivos faltantes ya se manejan en loadVideosByYears
+        setError(err.message || 'Error desconocido al cargar videos');
+        setVideos([]); // Asegurar que videos esté vacío en caso de error
       } finally {
         setLoading(false);
       }

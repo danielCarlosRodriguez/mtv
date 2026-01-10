@@ -4,30 +4,96 @@
  * @returns {Promise<Array>} - Array con todos los videos de los años especificados
  */
 export async function loadVideosByYears(years) {
+  const startTime = Date.now();
+  
   try {
     const loadPromises = years.map(async (year) => {
       try {
-        const response = await fetch(`/data/${year}.json`);
+        const url = `/data/${year}.json`;
+        const response = await fetch(url);
+        
+        // Si la respuesta no es OK, verificar si es 404 (archivo no existe) o error real
         if (!response.ok) {
-          // Si el archivo no existe, devolver array vacío (no fallar)
+          // Si es 404, simplemente omitir silenciosamente
+          if (response.status === 404) {
+            return [];
+          }
+          // Para otros errores HTTP, intentar leer el texto para ver si es HTML de error
+          try {
+            const text = await response.text();
+            const trimmedText = text.trim();
+            // Si es HTML (página de error), omitir silenciosamente
+            if (trimmedText.startsWith('<!DOCTYPE') || trimmedText.startsWith('<!doctype') || trimmedText.startsWith('<html')) {
+              return [];
+            }
+          } catch {
+            // Si no se puede leer el texto, omitir silenciosamente
+            return [];
+          }
+          // Si no es HTML, podría ser un error real, pero omitimos silenciosamente para no bloquear
           return [];
         }
-        const data = await response.json();
+        
+        // Obtener el texto de la respuesta
+        const text = await response.text();
+        const trimmedText = text.trim();
+        
+        // Verificar que el contenido NO es HTML (verificar si empieza con <!DOCTYPE, <html, o contiene tags HTML)
+        if (trimmedText.startsWith('<!DOCTYPE') || 
+            trimmedText.startsWith('<!doctype') || 
+            trimmedText.startsWith('<html') ||
+            trimmedText.startsWith('<HTML') ||
+            (trimmedText.includes('<!DOCTYPE') && trimmedText.includes('<html'))) {
+          // Silenciosamente omitir archivos que no existen - no loguear como error
+          return [];
+        }
+        
+        // Verificar que el contenido empieza con { o [ (JSON válido)
+        if (!trimmedText.startsWith('{') && !trimmedText.startsWith('[')) {
+          // Silenciosamente omitir archivos inválidos
+          return [];
+        }
+        
+        // Intentar parsear JSON con manejo de error específico
+        let data;
+        try {
+          data = JSON.parse(text);
+        } catch (parseError) {
+          // Silenciosamente omitir archivos que no se pueden parsear
+          return [];
+        }
+        
+        // Extraer videos del objeto JSON
         const videos = data[year.toString()] || [];
-        return videos; // Extraer el array de videos del año
+        return videos;
       } catch (err) {
-        // Si hay error al cargar un año específico, continuar con los demás
+        // Silenciosamente omitir cualquier error - solo retornar array vacío
+        // Esto permite que otros archivos continúen cargándose
         return [];
       }
     });
 
-    const videosArrays = await Promise.all(loadPromises);
+    // Usar Promise.allSettled para asegurar que siempre resolvamos, incluso si hay errores
+    const results = await Promise.allSettled(loadPromises);
+    
+    // Extraer los arrays de videos de las promesas resueltas
+    const videosArrays = results
+      .map(result => {
+        if (result.status === 'fulfilled') {
+          return result.value; // Array de videos
+        } else {
+          // Si hubo un error no capturado, retornar array vacío
+          return [];
+        }
+      })
+      .filter(Array.isArray); // Filtrar solo arrays válidos
+    
     // Combinar todos los videos en un solo array
     const allVideos = videosArrays.flat();
     return allVideos;
   } catch (error) {
-    console.error('Error crítico al cargar videos:', error);
-    throw error;
+    // Retornar array vacío en lugar de lanzar error para no bloquear la aplicación
+    return [];
   }
 }
 
