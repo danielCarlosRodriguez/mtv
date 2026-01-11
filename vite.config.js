@@ -10,12 +10,31 @@ export default defineConfig({
   build: {
     outDir: "dist",
     assetsDir: "assets",
-    // Asegurar que los assets se carguen correctamente en la app móvil
+    minify: "terser", // Minificar código JavaScript
+    terserOptions: {
+      compress: {
+        drop_console: true, // Eliminar console.log en producción
+        drop_debugger: true,
+      },
+    },
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
       },
+      output: {
+        // Optimizar nombres de chunks
+        manualChunks: undefined,
+        // Minificar nombres de archivos
+        assetFileNames: "assets/[name].[hash:8][extname]",
+        chunkFileNames: "assets/[name].[hash:8].js",
+        entryFileNames: "assets/[name].[hash:8].js",
+      },
     },
+    // Reducir tamaño de source maps (o deshabilitarlos en producción)
+    sourcemap: false,
+    // Reportar tamaños de chunks
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 1000,
   },
   // Configuración del servidor de desarrollo para Capacitor
   server: {

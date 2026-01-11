@@ -7,18 +7,18 @@ import React from 'react';
  */
 const Footer = () => {
   return (
-    <div 
+    <div
       className="relative sm:absolute left-0 right-0 flex flex-col items-center justify-center px-4 w-full"
-      style={{ 
+      style={{
         bottom: "20px",
-        paddingBottom: "env(safe-area-inset-bottom, 20px)"
+        paddingBottom: "env(safe-area-inset-bottom, 20px)",
       }}
     >
       {/* Contenedor de botones lado a lado */}
-      <div 
+      <div
         className="flex items-center justify-center gap-4"
-        style={{ 
-          marginBottom: "24px"
+        style={{
+          marginBottom: "24px",
         }}
       >
         {/* Botón de descarga APK */}
@@ -64,10 +64,35 @@ const Footer = () => {
           marginTop: "0",
           marginBottom: "0",
           display: "block",
-          fontWeight: "400"
+          fontWeight: "400",
         }}
       >
-        Sentí nuevamente la experiencia de Mtv | Unofficial Project v1.0
+        Sentí nuevamente la experiencia de MúsicTv | Unofficial Project v1.0
+      </p>
+      <p
+        className="text-white text-xs sm:text-sm opacity-70 text-center px-2"
+        style={{
+          fontFamily: "'Roboto', sans-serif",
+          textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)",
+          lineHeight: "1.4",
+          wordWrap: "break-word",
+          overflowWrap: "break-word",
+          marginTop: "0",
+          marginBottom: "0",
+          display: "block",
+          fontWeight: "400",
+        }}
+      >
+        Fan-made project / not affiliated with MTV |{' '}
+        <a
+          href="mailto:danielcarlosrodriguez@gmail.com"
+          className="text-white opacity-70 hover:opacity-100 underline transition-opacity duration-300"
+          style={{
+            textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)",
+          }}
+        >
+          Contacto
+        </a>
       </p>
     </div>
   );
