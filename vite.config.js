@@ -2,42 +2,45 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react"; // Plugin estándar de React
 import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "path";
-import { unlinkSync, readdirSync, statSync, existsSync } from "fs";
-import { join } from "path";
+import { existsSync, copyFileSync, unlinkSync } from "fs";
 
-// Plugin para excluir archivos .apk del build
-const excludeApkPlugin = () => {
+// Plugin para manejar el APK: excluirlo del copyPublicDir pero copiarlo después en Netlify
+const apkPlugin = () => {
   return {
-    name: "exclude-apk",
+    name: "apk-handler",
+    buildStart() {
+      // Antes del build, nada que hacer
+    },
     writeBundle() {
-      // Eliminar archivos .apk después del build
-      const distDir = resolve(__dirname, "dist");
-      if (existsSync(distDir)) {
-        const deleteApkFiles = (dir) => {
-          const files = readdirSync(dir);
-          files.forEach((file) => {
-            const filePath = join(dir, file);
-            const stat = statSync(filePath);
-            if (stat.isDirectory()) {
-              deleteApkFiles(filePath);
-            } else if (file.endsWith(".apk")) {
-              try {
-                unlinkSync(filePath);
-                console.log(`✅ Eliminado APK del build: ${filePath}`);
-              } catch (error) {
-                console.warn(`⚠️  No se pudo eliminar: ${filePath}`, error.message);
-              }
-            }
-          });
-        };
-        deleteApkFiles(distDir);
+      // Verificar si es un build de Netlify
+      const isNetlify = process.env.NETLIFY === "true" || process.env.CI === "true";
+      
+      const apkPublic = resolve(__dirname, "public", "mtv2026.apk");
+      const apkDist = resolve(__dirname, "dist", "mtv2026.apk");
+      
+      if (isNetlify && existsSync(apkPublic)) {
+        // En Netlify: copiar el APK después del build para que esté disponible
+        try {
+          copyFileSync(apkPublic, apkDist);
+          console.log("✅ APK copiado a dist/ para Netlify");
+        } catch (error) {
+          console.warn("⚠️  No se pudo copiar el APK:", error.message);
+        }
+      } else if (!isNetlify && existsSync(apkDist)) {
+        // En builds locales: eliminar el APK si existe en dist/
+        try {
+          unlinkSync(apkDist);
+          console.log("✅ APK eliminado de dist/ (build local)");
+        } catch (error) {
+          console.warn("⚠️  No se pudo eliminar el APK:", error.message);
+        }
       }
     },
   };
 };
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), excludeApkPlugin()],
+  plugins: [react(), tailwindcss(), apkPlugin()],
   // Configuración para Capacitor
   base: "./", // Importante: usa rutas relativas para Capacitor
   build: {
@@ -60,7 +63,7 @@ export default defineConfig({
         entryFileNames: "assets/[name].[hash:8].js",
       },
     },
-    // Excluir el APK del build (no debe copiarse al dist)
+    // Copiar archivos públicos (el plugin apkPlugin eliminará el APK después si no es Netlify)
     copyPublicDir: true,
     publicDir: "public",
     // Configuración para excluir archivos específicos

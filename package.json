@@ -15,7 +15,7 @@
     "cap:open": "npx cap open",
     "cap:android": "npx cap open android",
     "cap:ios": "npx cap open ios",
-    "build:apk": "npm run build && npx cap sync && echo ✅ Build completado. Abre Android Studio con: npm run cap:android"
+    "build:apk": "npm run build && node scripts/remove-apk.mjs && npx cap sync && echo ✅ Build completado. Abre Android Studio con: npm run cap:android"
   },
   "dependencies": {
     "@capacitor/android": "^6.0.0",
