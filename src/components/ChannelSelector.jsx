@@ -174,8 +174,12 @@ const ChannelSelector = ({ onChannelSelect }) => {
               <a
                 href="/mtv2026.apk"
                 download="mtv2026.apk"
-                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer mb-4 sm:mb-5"
+                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
                 aria-label="Descargar App Android"
+                style={{ 
+                  marginBottom: "24px",
+                  display: "block"
+                }}
               >
                 <img
                   src="/imagenes/logo-android-blanco.png"
@@ -185,14 +189,17 @@ const ChannelSelector = ({ onChannelSelect }) => {
                 />
               </a>
               <p
-                className="text-white text-[10px] sm:text-xs opacity-70 text-center px-2"
+                className="text-white text-xs sm:text-sm opacity-70 text-center px-2"
                 style={{
-                  fontFamily: "'Kabel Black', sans-serif",
+                  fontFamily: "'Roboto', sans-serif",
                   textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)",
-                  lineHeight: "1.3",
+                  lineHeight: "1.4",
                   wordWrap: "break-word",
                   overflowWrap: "break-word",
-                  marginTop: "16px"
+                  marginTop: "0",
+                  marginBottom: "0",
+                  display: "block",
+                  fontWeight: "400"
                 }}
               >
                 Sentí nuevamente la experiencia de Mtv | Unofficial Project v1.0
