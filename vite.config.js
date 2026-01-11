@@ -2,9 +2,42 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react"; // Plugin estándar de React
 import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "path";
+import { unlinkSync, readdirSync, statSync, existsSync } from "fs";
+import { join } from "path";
+
+// Plugin para excluir archivos .apk del build
+const excludeApkPlugin = () => {
+  return {
+    name: "exclude-apk",
+    writeBundle() {
+      // Eliminar archivos .apk después del build
+      const distDir = resolve(__dirname, "dist");
+      if (existsSync(distDir)) {
+        const deleteApkFiles = (dir) => {
+          const files = readdirSync(dir);
+          files.forEach((file) => {
+            const filePath = join(dir, file);
+            const stat = statSync(filePath);
+            if (stat.isDirectory()) {
+              deleteApkFiles(filePath);
+            } else if (file.endsWith(".apk")) {
+              try {
+                unlinkSync(filePath);
+                console.log(`✅ Eliminado APK del build: ${filePath}`);
+              } catch (error) {
+                console.warn(`⚠️  No se pudo eliminar: ${filePath}`, error.message);
+              }
+            }
+          });
+        };
+        deleteApkFiles(distDir);
+      }
+    },
+  };
+};
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), excludeApkPlugin()],
   // Configuración para Capacitor
   base: "./", // Importante: usa rutas relativas para Capacitor
   build: {
@@ -27,6 +60,11 @@ export default defineConfig({
         entryFileNames: "assets/[name].[hash:8].js",
       },
     },
+    // Excluir el APK del build (no debe copiarse al dist)
+    copyPublicDir: true,
+    publicDir: "public",
+    // Configuración para excluir archivos específicos
+    emptyOutDir: true,
     // Reducir tamaño de source maps (o deshabilitarlos en producción)
     sourcemap: false,
     // Reportar tamaños de chunks
