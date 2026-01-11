@@ -162,6 +162,26 @@ const ChannelSelector = ({ onChannelSelect }) => {
                 />
               </button>
             </div>
+
+            {/* Botón de descarga APK */}
+            <div 
+              className="absolute bottom-5 left-0 right-0 flex justify-center"
+              style={{ bottom: "20px" }}
+            >
+              <a
+                href="/mtv2026.apk"
+                download="mtv2026.apk"
+                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
+                aria-label="Descargar App Android"
+              >
+                <img
+                  src="/imagenes/logo-android-blanco.png"
+                  alt="Descargar App Android"
+                  className="h-10 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  style={{ maxWidth: "150px" }}
+                />
+              </a>
+            </div>
           </div>
         </>
       )}
