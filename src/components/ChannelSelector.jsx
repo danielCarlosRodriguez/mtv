@@ -163,24 +163,33 @@ const ChannelSelector = ({ onChannelSelect }) => {
               </button>
             </div>
 
-            {/* Botón de descarga APK */}
+            {/* Botón de descarga APK y footer */}
             <div 
-              className="absolute bottom-5 left-0 right-0 flex justify-center"
+              className="absolute left-0 right-0 flex flex-col items-center justify-center"
               style={{ bottom: "20px" }}
             >
               <a
                 href="/mtv2026.apk"
                 download="mtv2026.apk"
-                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
+                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer mb-3"
                 aria-label="Descargar App Android"
               >
                 <img
                   src="/imagenes/logo-android-blanco.png"
                   alt="Descargar App Android"
                   className="h-10 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
-                  style={{ maxWidth: "150px" }}
+                  style={{ maxWidth: "150px", marginBottom: "20px" }}
                 />
               </a>
+              <p
+                className="text-white text-xs sm:text-sm opacity-70 text-center "
+                style={{
+                  fontFamily: "'Kabel Black', sans-serif",
+                  textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)",
+                }}
+              >
+                Sentí nuevamente la experiencia de Mtv | Unofficial Project v1.0
+              </p>
             </div>
           </div>
         </>
