@@ -1,2 +1,5 @@
-# Redirección para SPA - todas las rutas van a index.html
+# Excepción para el APK - debe servirse como archivo binario
+/mtv2026.apk    /mtv2026.apk   200
+
+# Redirección para SPA - todas las demás rutas van a index.html
 /*    /index.html   200

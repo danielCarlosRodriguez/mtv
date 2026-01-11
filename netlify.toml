@@ -4,6 +4,13 @@
   # Directorio donde se generan los archivos estáticos
   publish = "dist"
 
+# Excepción para el APK - debe servirse como archivo binario
+[[redirects]]
+  from = "/mtv2026.apk"
+  to = "/mtv2026.apk"
+  status = 200
+  force = true
+
 # Configuración para SPA (Single Page Application)
 # Todas las rutas deben redirigir a index.html para que React Router funcione
 [[redirects]]
@@ -38,6 +45,14 @@
   for = "/fonts/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Headers para archivo APK
+[[headers]]
+  for = "/mtv2026.apk"
+  [headers.values]
+    Content-Type = "application/vnd.android.package-archive"
+    Content-Disposition = "attachment; filename=\"mtv2026.apk\""
+    Cache-Control = "public, max-age=3600"
 
 # Variables de entorno (si las necesitas en el futuro)
 # [build.environment]

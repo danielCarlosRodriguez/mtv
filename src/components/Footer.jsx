@@ -25,6 +25,7 @@ const Footer = () => {
         <a
           href="/mtv2026.apk"
           download="mtv2026.apk"
+          type="application/vnd.android.package-archive"
           className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
           aria-label="Descargar App Android"
         >
