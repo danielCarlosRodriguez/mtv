@@ -169,32 +169,68 @@ const ChannelSelector = ({ onChannelSelect }) => {
               className="flex gap-12 justify-center items-center"
               style={{ marginTop: "30px" }}
             >
+              {/* Estilos para indicadores de focus */}
+              <style>{`
+                .channel-button {
+                  position: relative;
+                  outline: none;
+                  padding: 8px;
+                  border-radius: 12px;
+                  transition: all 0.3s ease;
+                }
+                .channel-button:focus-visible,
+                .channel-button:focus {
+                  outline: none;
+                }
+                .channel-button:focus-visible .focus-indicator,
+                .channel-button:focus .focus-indicator {
+                  opacity: 1 !important;
+                }
+                .channel-button:focus-visible .channel-logo,
+                .channel-button:focus .channel-logo {
+                  filter: brightness(1.3) drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
+                  transform: scale(1.1);
+                }
+                .focus-indicator {
+                  position: absolute;
+                  inset: -8px;
+                  border: 4px solid white;
+                  border-radius: 16px;
+                  opacity: 0;
+                  transition: opacity 0.3s ease;
+                  pointer-events: none;
+                  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.4);
+                }
+              `}</style>
+
               {/* Botón MTV 90 con logo */}
               <button
                 onClick={() => handleChannelSelect("MTV90")}
-                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
+                className="channel-button transition-all duration-300 transform hover:scale-110 cursor-pointer"
                 aria-label="Seleccionar MTV 90"
               >
                 <img
                   src="/imagenes/logo-mtv-90.png"
                   alt="MTV 90"
-                  className="h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  className="channel-logo h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
                   style={{ maxWidth: "400px" }}
                 />
+                <div className="focus-indicator" />
               </button>
 
               {/* Botón MTV 00 con logo */}
               <button
                 onClick={() => handleChannelSelect("MTV00")}
-                className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
+                className="channel-button transition-all duration-300 transform hover:scale-110 cursor-pointer"
                 aria-label="Seleccionar MTV 00"
               >
                 <img
                   src="/imagenes/logo-mtv-00.png"
                   alt="MTV 00"
-                  className="h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  className="channel-logo h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
                   style={{ maxWidth: "400px" }}
                 />
+                <div className="focus-indicator" />
               </button>
             </div>
 
