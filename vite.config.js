@@ -10,12 +10,9 @@ export default defineConfig({
   build: {
     outDir: "dist",
     assetsDir: "assets",
-    minify: "terser", // Minificar código JavaScript
-    terserOptions: {
-      compress: {
-        drop_console: true, // Eliminar console.log en producción
-        drop_debugger: true,
-      },
+    minify: "esbuild", // Minificar código JavaScript (esbuild es más rápido y viene incluido)
+    esbuild: {
+      drop: ["console", "debugger"], // Eliminar console.log y debugger en producción
     },
     rollupOptions: {
       input: {
