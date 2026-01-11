@@ -32,26 +32,50 @@ export function useYouTubePlayer(videoId, options = {}) {
     onErrorRef.current = options.onError;
   }, [options.onVideoEnd, options.onError]);
 
-  // Cargar YouTube IFrame API
+  // Cargar YouTube IFrame API - usar un singleton para evitar múltiples cargas
   useEffect(() => {
+    // Si ya está disponible, usar directamente
     if (window.YT && window.YT.Player) {
       setApiReady(true);
       return;
     }
 
-    if (window.onYouTubeIframeAPIReady) {
+    // Guardar el callback original si existe
+    const originalCallback = window.onYouTubeIframeAPIReady;
+    
+    // Configurar el callback ANTES de cualquier otra cosa
+    window.onYouTubeIframeAPIReady = () => {
+      setApiReady(true);
+      // Ejecutar callback original si existe
+      if (originalCallback && typeof originalCallback === 'function') {
+        originalCallback();
+      }
+    };
+
+    // Verificar si el script ya está en el DOM
+    const existingScript = document.querySelector('script[src="https://www.youtube.com/iframe_api"]');
+    if (existingScript) {
+      // Si el script existe, verificar periódicamente si la API se cargó
       const checkApi = setInterval(() => {
         if (window.YT && window.YT.Player) {
           setApiReady(true);
           clearInterval(checkApi);
         }
       }, 100);
+      
+      // Timeout de seguridad: después de 10 segundos, asumir que la API no se cargará
+      setTimeout(() => {
+        clearInterval(checkApi);
+      }, 10000);
+      
       return () => clearInterval(checkApi);
     }
 
+    // Solo cargar el script si no existe
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';
     tag.async = true;
+    
     const firstScriptTag = document.getElementsByTagName('script')[0];
     if (firstScriptTag && firstScriptTag.parentNode) {
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
@@ -59,10 +83,6 @@ export function useYouTubePlayer(videoId, options = {}) {
       // Si no hay scripts, agregar al head
       document.head.appendChild(tag);
     }
-
-    window.onYouTubeIframeAPIReady = () => {
-      setApiReady(true);
-    };
   }, []);
 
   // Inicializar el reproductor cuando API, contenedor y videoId estén listos
@@ -141,7 +161,7 @@ export function useYouTubePlayer(videoId, options = {}) {
               const muted = event.target.isMuted();
               setIsMuted(muted);
             } catch (err) {
-              // Ignorar si no se puede verificar
+              // Ignorar errores
             }
 
             // Intentar reproducir si no está reproduciéndose

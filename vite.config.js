@@ -40,7 +40,14 @@ const apkPlugin = () => {
 };
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), apkPlugin()],
+  plugins: [
+    react({
+      jsxRuntime: 'automatic', // Usar el nuevo runtime JSX de React 19
+      jsxImportSource: 'react', // Especificar el import source para React 19
+    }),
+    tailwindcss(),
+    apkPlugin()
+  ],
   // Configuración para Capacitor
   base: "./", // Importante: usa rutas relativas para Capacitor
   build: {
