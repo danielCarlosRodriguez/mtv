@@ -4,7 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/imagenes/logo-mtv.png" />
     <link rel="apple-touch-icon" href="/imagenes/logo-mtv.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Barra de estado negra para Android Chrome -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    
+    <!-- Barra de estado negra para iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    
+    <!-- Fullscreen y pantalla completa -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="yes" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
@@ -21,6 +33,91 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Script para ocultar la barra de navegación en mobile -->
+    <script>
+      (function() {
+        let hideNavBarInterval = null;
+        
+        // Función para ocultar la barra de navegación
+        function hideNavigationBar() {
+          const isMobile = window.innerWidth < 768;
+          const isLandscape = window.innerWidth > window.innerHeight;
+          
+          // Solo ocultar en mobile y en modo horizontal
+          if (!isMobile || !isLandscape) {
+            if (hideNavBarInterval) {
+              clearInterval(hideNavBarInterval);
+              hideNavBarInterval = null;
+            }
+            return;
+          }
+
+          // Forzar scroll para ocultar la barra (horizontal y vertical)
+          window.scrollTo(1, 1);
+          setTimeout(function() {
+            window.scrollTo(0, 0);
+          }, 10);
+        }
+
+        // Función para verificar y ocultar periódicamente
+        function startHidingNavBar() {
+          if (hideNavBarInterval) {
+            clearInterval(hideNavBarInterval);
+          }
+          
+          const isMobile = window.innerWidth < 768;
+          const isLandscape = window.innerWidth > window.innerHeight;
+          
+          if (isMobile && isLandscape) {
+            hideNavBarInterval = setInterval(function() {
+              const stillLandscape = window.innerWidth > window.innerHeight;
+              if (!stillLandscape) {
+                clearInterval(hideNavBarInterval);
+                hideNavBarInterval = null;
+                return;
+              }
+              
+              // Verificar si la barra está visible
+              if (window.innerHeight < window.outerHeight || window.innerWidth < window.outerWidth) {
+                window.scrollTo(1, 1);
+                setTimeout(function() {
+                  window.scrollTo(0, 0);
+                }, 10);
+              }
+            }, 500);
+          }
+        }
+
+        // Ejecutar cuando la página carga
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', function() {
+            hideNavigationBar();
+            startHidingNavBar();
+          });
+        } else {
+          hideNavigationBar();
+          startHidingNavBar();
+        }
+
+        // Ejecutar cuando cambia la orientación
+        window.addEventListener('orientationchange', function() {
+          setTimeout(function() {
+            hideNavigationBar();
+            startHidingNavBar();
+          }, 200);
+        });
+
+        // Ejecutar cuando cambia el tamaño (incluyendo cuando aparece/desaparece la barra)
+        let resizeTimer;
+        window.addEventListener('resize', function() {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(function() {
+            hideNavigationBar();
+            startHidingNavBar();
+          }, 100);
+        });
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

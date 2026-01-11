@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { loadVideosByYears, CHANNELS } from '../utils/videoLoader';
+import { useFullscreenOnLandscape } from '../hooks/useFullscreenOnLandscape';
 import VideoPlayer from './VideoPlayer';
 import { weightedRandomSelect } from '../utils/weightedRandom';
 import Footer from './Footer';
@@ -17,6 +18,35 @@ const ChannelSelector = ({ onChannelSelect }) => {
   const [backgroundVideo, setBackgroundVideo] = useState(null);
   const [backgroundPlayerReady, setBackgroundPlayerReady] = useState(false);
   const backgroundUnmuteRef = useRef(null);
+  
+  // Estado para detectar orientación horizontal
+  const [isLandscape, setIsLandscape] = useState(false);
+
+  // Activar fullscreen automático en modo horizontal (mobile)
+  useFullscreenOnLandscape(true);
+
+  // Detectar orientación
+  useEffect(() => {
+    const checkOrientation = () => {
+      setIsLandscape(window.innerWidth > window.innerHeight);
+    };
+
+    // Verificar orientación inicial
+    checkOrientation();
+
+    // Escuchar cambios de orientación
+    window.addEventListener('orientationchange', () => {
+      setTimeout(checkOrientation, 100);
+    });
+
+    // Escuchar cambios de tamaño
+    window.addEventListener('resize', checkOrientation);
+
+    return () => {
+      window.removeEventListener('orientationchange', checkOrientation);
+      window.removeEventListener('resize', checkOrientation);
+    };
+  }, []);
 
   // Cargar videos de ambos canales
   useEffect(() => {
@@ -165,14 +195,20 @@ const ChannelSelector = ({ onChannelSelect }) => {
             </div>
 
             {/* Footer con botón de descarga APK - Solo en mobile, debajo de los botones */}
-            <div className="block sm:hidden" style={{ marginTop: "80px" }}>
-              <Footer />
-            </div>
+            {/* Ocultar en modo horizontal */}
+            {!isLandscape && (
+              <div className="block sm:hidden" style={{ marginTop: "80px" }}>
+                <Footer />
+              </div>
+            )}
 
             {/* Footer con botón de descarga APK - Solo en desktop, posición fija abajo */}
-            <div className="hidden sm:block">
-              <Footer />
-            </div>
+            {/* Ocultar en modo horizontal */}
+            {!isLandscape && (
+              <div className="hidden sm:block">
+                <Footer />
+              </div>
+            )}
           </div>
         </>
       )}

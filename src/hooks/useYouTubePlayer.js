@@ -53,7 +53,12 @@ export function useYouTubePlayer(videoId, options = {}) {
     tag.src = 'https://www.youtube.com/iframe_api';
     tag.async = true;
     const firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    if (firstScriptTag && firstScriptTag.parentNode) {
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    } else {
+      // Si no hay scripts, agregar al head
+      document.head.appendChild(tag);
+    }
 
     window.onYouTubeIframeAPIReady = () => {
       setApiReady(true);
@@ -121,7 +126,10 @@ export function useYouTubePlayer(videoId, options = {}) {
           start: 0,
           disablekb: 1, // Deshabilitar controles de teclado
           cc_load_policy: 0, // No cargar subtítulos automáticamente
-          origin: window.location.origin, // Origen para evitar errores de postMessage
+          // No incluir origin en desarrollo local para evitar errores de postMessage
+          ...(window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1' 
+            ? { origin: window.location.origin } 
+            : {}),
         },
         events: {
           onReady: (event) => {

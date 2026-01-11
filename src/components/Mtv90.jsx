@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useChannel } from '../hooks/useChannel';
 import { useVideoSelector } from '../hooks/useVideoSelector';
+import { useFullscreenOnLandscape } from '../hooks/useFullscreenOnLandscape';
 import VideoPlayer from './VideoPlayer';
 import ChannelOverlay from './ChannelOverlay';
 import UnmuteButton from './UnmuteButton';
@@ -19,6 +20,9 @@ const Mtv90 = ({ autoUnmute = false }) => {
   const lastMutedStateRef = useRef(true); // Usar ref para comparar cambios en el estado mute
   const userHasUnmutedRef = useRef(autoUnmute); // Si autoUnmute es true, marcar como ya activado
   const lastVideoIdRef = useRef(null); // Para rastrear el último video reproducido
+
+  // Activar fullscreen automático en modo horizontal (mobile)
+  useFullscreenOnLandscape(true);
 
   // Seleccionar el primer video cuando los videos estén cargados
   useEffect(() => {

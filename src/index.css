@@ -19,9 +19,65 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: #000000;
+  /* Asegurar que el body ocupe todo el espacio en fullscreen */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #root {
   width: 100%;
   height: 100%;
+  /* Asegurar que el root ocupe todo el espacio disponible */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilos para fullscreen */
+html:fullscreen,
+html:-webkit-full-screen,
+html:-moz-full-screen,
+html:-ms-fullscreen {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Ocultar barras de navegación en mobile cuando está en fullscreen */
+@media (max-width: 768px) {
+  html, body {
+    /* Ocultar scrollbars en mobile */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* Prevenir scroll que revele la barra de navegación */
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* En modo horizontal, forzar altura completa */
+  @media (orientation: landscape) {
+    html, body {
+      height: 100vh;
+      height: -webkit-fill-available; /* Para iOS Safari */
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+    }
+    
+    #root {
+      height: 100vh;
+      height: -webkit-fill-available;
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+    }
+  }
 }
