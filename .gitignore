@@ -60,5 +60,6 @@ ordenar-por-visitas.js
 revertir-transformacion.js
 CAPACITOR_SETUP.md
 eliminar-duplicados-borrador.js
+eliminar-duplicados-public-data.js
 eliminar-duplicados.js
 transformar.js
