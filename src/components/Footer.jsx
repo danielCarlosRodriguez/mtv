@@ -23,7 +23,7 @@ const Footer = () => {
       >
         {/* Botón de descarga APK */}
         <a
-          href="/mtv2026.apk"
+          href="https://musictv2026.netlify.app/mtv2026.apk"
           download="mtv2026.apk"
           type="application/vnd.android.package-archive"
           className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
