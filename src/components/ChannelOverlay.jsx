@@ -9,18 +9,45 @@ const ChannelOverlay = ({ video, channelName = 'MTV 90' }) => {
   // Extraer artista y título del campo "name"
   const parseVideoInfo = (name) => {
     if (!name) return { artist: '', title: '' };
-    const parts = name.split('|');
+    
+    // Intentar primero con "|" (formato MTV 90)
+    let parts = name.split('|');
+    if (parts.length === 1) {
+      // Si no hay "|", intentar con "," (formato MTV 00)
+      parts = name.split(',');
+    }
+    
+    // Limpiar comillas dobles del título si las hay
+    let artist = parts[0]?.trim() || '';
+    let title = parts[1]?.trim() || '';
+    
+    // Remover comillas dobles del título
+    if (title) {
+      title = title.replace(/^["']|["']$/g, '');
+    }
+    
     return {
-      artist: parts[0]?.trim() || '',
-      title: parts[1]?.trim() || '',
+      artist,
+      title,
     };
   };
 
   // Extraer año de la fecha
   const getYear = (fecha) => {
     if (!fecha) return '';
+    
+    // Si la fecha tiene formato DD/MM/AAAA, extraer el año
     const parts = fecha.split('/');
-    return parts[2] || '';
+    if (parts.length === 3) {
+      return parts[2] || '';
+    }
+    
+    // Si la fecha es solo el año (formato MTV 00), retornarlo directamente
+    if (/^\d{4}$/.test(fecha.trim())) {
+      return fecha.trim();
+    }
+    
+    return '';
   };
 
   // Determinar la ruta del logo según el canal
