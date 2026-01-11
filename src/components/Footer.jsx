@@ -2,11 +2,13 @@ import React from 'react';
 
 /**
  * Componente Footer con botón de descarga APK y texto del footer
+ * En mobile: posicionado relativo (50px debajo de los botones)
+ * En desktop: posicionado absoluto (fijo abajo)
  */
 const Footer = () => {
   return (
     <div 
-      className="absolute left-0 right-0 flex flex-col items-center justify-center px-4"
+      className="relative sm:absolute left-0 right-0 flex flex-col items-center justify-center px-4 w-full"
       style={{ 
         bottom: "20px",
         paddingBottom: "env(safe-area-inset-bottom, 20px)"

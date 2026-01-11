@@ -164,8 +164,15 @@ const ChannelSelector = ({ onChannelSelect }) => {
               </button>
             </div>
 
-            {/* Footer con botón de descarga APK */}
-            <Footer />
+            {/* Footer con botón de descarga APK - Solo en mobile, debajo de los botones */}
+            <div className="block sm:hidden" style={{ marginTop: "80px" }}>
+              <Footer />
+            </div>
+
+            {/* Footer con botón de descarga APK - Solo en desktop, posición fija abajo */}
+            <div className="hidden sm:block">
+              <Footer />
+            </div>
           </div>
         </>
       )}
