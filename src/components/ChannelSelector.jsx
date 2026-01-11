@@ -19,16 +19,20 @@ const ChannelSelector = ({ onChannelSelect }) => {
   const [backgroundPlayerReady, setBackgroundPlayerReady] = useState(false);
   const backgroundUnmuteRef = useRef(null);
   
-  // Estado para detectar orientación horizontal
+  // Estado para detectar orientación horizontal y si es mobile
   const [isLandscape, setIsLandscape] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   // Activar fullscreen automático en modo horizontal (mobile)
   useFullscreenOnLandscape(true);
 
-  // Detectar orientación
+  // Detectar orientación y si es mobile
   useEffect(() => {
     const checkOrientation = () => {
-      setIsLandscape(window.innerWidth > window.innerHeight);
+      const landscape = window.innerWidth > window.innerHeight;
+      const mobile = window.innerWidth < 768; // Breakpoint de Tailwind 'sm:'
+      setIsLandscape(landscape);
+      setIsMobile(mobile);
     };
 
     // Verificar orientación inicial
@@ -195,20 +199,18 @@ const ChannelSelector = ({ onChannelSelect }) => {
             </div>
 
             {/* Footer con botón de descarga APK - Solo en mobile, debajo de los botones */}
-            {/* Ocultar en modo horizontal */}
-            {!isLandscape && (
+            {/* Ocultar solo en mobile cuando está en modo horizontal */}
+            {!(isMobile && isLandscape) && (
               <div className="block sm:hidden" style={{ marginTop: "80px" }}>
                 <Footer />
               </div>
             )}
 
             {/* Footer con botón de descarga APK - Solo en desktop, posición fija abajo */}
-            {/* Ocultar en modo horizontal */}
-            {!isLandscape && (
-              <div className="hidden sm:block">
-                <Footer />
-              </div>
-            )}
+            {/* Siempre visible en desktop, independientemente de la orientación */}
+            <div className="hidden sm:block">
+              <Footer />
+            </div>
           </div>
         </>
       )}

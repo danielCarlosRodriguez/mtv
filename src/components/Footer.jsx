@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * Componente Footer con botón de descarga APK y texto del footer
+ * Componente Footer con botón de descarga APK, botón de invítame un café y texto del footer
  * En mobile: posicionado relativo (50px debajo de los botones)
  * En desktop: posicionado absoluto (fijo abajo)
  */
@@ -14,23 +14,44 @@ const Footer = () => {
         paddingBottom: "env(safe-area-inset-bottom, 20px)"
       }}
     >
-      <a
-        href="/mtv2026.apk"
-        download="mtv2026.apk"
-        className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
-        aria-label="Descargar App Android"
+      {/* Contenedor de botones lado a lado */}
+      <div 
+        className="flex items-center justify-center gap-4"
         style={{ 
-          marginBottom: "24px",
-          display: "block"
+          marginBottom: "24px"
         }}
       >
-        <img
-          src="/imagenes/logo-android-blanco.png"
-          alt="Descargar App Android"
-          className="h-8 sm:h-10 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
-          style={{ maxWidth: "120px", width: "auto" }}
-        />
-      </a>
+        {/* Botón de descarga APK */}
+        <a
+          href="/mtv2026.apk"
+          download="mtv2026.apk"
+          className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
+          aria-label="Descargar App Android"
+        >
+          <img
+            src="/imagenes/logo-android-blanco.png"
+            alt="Descargar App Android"
+            className="h-8 sm:h-10 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+            style={{ maxWidth: "120px", width: "auto" }}
+          />
+        </a>
+
+        {/* Botón de invítame un café */}
+        <a
+          href="https://mpago.la/2BJukrH"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-all duration-300 transform hover:scale-110 focus:outline-none cursor-pointer"
+          aria-label="Invítame un café"
+        >
+          <img
+            src="/imagenes/logo-invitame-cafe.png"
+            alt="Invítame un café"
+            className="h-8 sm:h-10 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+            style={{ maxWidth: "120px", width: "auto" }}
+          />
+        </a>
+      </div>
       <p
         className="text-white text-xs sm:text-sm opacity-70 text-center px-2"
         style={{
