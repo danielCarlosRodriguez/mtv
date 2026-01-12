@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# 🎵 MusicTv - Fan Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Un tributo nostálgico a la mejor era de la música**
 
-Currently, two official plugins are available:
+Este es un proyecto personal creado por un **fanático de los canales de MTV**, especialmente de aquellos años dorados donde la música tenía videos increíbles y MTV era el epicentro cultural. Una web app que emula la experiencia de prender la tele y encontrarte con MTV sonando en segundo plano.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📺 ¿Qué es?
 
-## React Compiler
+Una aplicación web y Android que recrea la experiencia de MTV como canal de música continua. **No es una playlist, no es YouTube con botones** - es un canal pasivo donde abrís la app y ya está sonando algo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ La Experiencia
 
-## Expanding the ESLint configuration
+- 🎬 **Videos fullscreen** que se reproducen automáticamente
+- 🎲 **Selección aleatoria ponderada** - prioriza videos populares pero mantiene la sorpresa
+- 🔄 **Transición continua** - cuando termina un video, arranca el siguiente sin pausas
+- 📱 **Disponible en web y Android** - la misma experiencia en cualquier dispositivo
+- 🎨 **Diseño minimalista** - solo el video y la información esencial (artista, título, año)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎶 Canales Disponibles
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### **MTV 90**
+Reviví la década dorada de los 90s con los mejores videos musicales de 1990 a 1999. Desde grunge hasta pop, desde rock alternativo hasta hip hop - todo lo que hizo grande a esa época.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### **MTV 00**
+La música de los 2000s - esa transición del milenio con estilos que marcaron una generación. Videos de 2000 a 2009 que capturan la esencia de esos años.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💝 Sobre el Proyecto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Este es un **proyecto sin fines de lucro** creado con pasión por alguien que creció viendo MTV y quiere revivir esas tardes de sábado donde simplemente prendías la tele y dejabas que la música fluyera.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**No hay publicidad, no hay suscripciones, no hay restricciones.** Solo música y videos, como debería ser.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### ☕ Invítame un Café
+
+Si disfrutás de este proyecto y querés apoyar su desarrollo y mantenimiento, podés invitarme un café ☕. Es completamente opcional, pero cada contribución ayuda a mantener este sitio vivo y mejorarlo.
+
+## 🎯 La Filosofía
+
+- ❌ **No es sincronizado** - cada usuario vive su propio canal
+- ❌ **No hay menús complejos** - solo elegís el canal y disfrutás
+- ✅ **Experiencia pasiva** - como prender la tele "a mitad de algo"
+- ✅ **Curaduría real** - contenido seleccionado de la mejor época musical
+- ✅ **Aleatoriedad ponderada** - los videos más populares tienen más probabilidad, pero siempre hay sorpresas
+
+## 🛠️ Tecnologías
+
+- **Frontend:** React + Vite
+- **Reproductor:** YouTube IFrame API
+- **Mobile:** Capacitor (Android)
+- **Hosting:** Netlify
+- **Fuente de datos:** Videos extraídos y curados de 120minutes.org
+
+## 📱 Acceso
+
+- **Web:** [https://musictv2026.netlify.app/](https://musictv2026.netlify.app/)
+- **Android:** Descarga el APK desde el sitio web
+
+## ⚖️ Aviso Legal
+
+Este es un **proyecto fan-made no oficial** y **no está afiliado con MTV**, ViacomCBS, o ninguna de sus filiales. Todos los videos son propiedad de sus respectivos dueños y se reproducen a través de YouTube. Este proyecto no genera ingresos y es puramente recreativo y educativo.
+
+---
+
+**Creado con ❤️ por un fanático de MTV** | Fan-made project / not affiliated with MTV
+
+*Reviví la mejor era de la música, un video a la vez.*
