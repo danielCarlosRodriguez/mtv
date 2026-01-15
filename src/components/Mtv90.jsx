@@ -10,8 +10,8 @@ const Mtv90 = ({ autoUnmute = false }) => {
   // Cargar videos del canal MTV90
   const { videos, loading, error } = useChannel('MTV90');
   
-  // Selector de videos con ponderación por visitas
-  const { currentVideo, selectNext } = useVideoSelector(videos, false);
+  // Selector de videos con ponderación por visitas y evitando repeticiones
+  const { currentVideo, selectNext } = useVideoSelector(videos, true);
 
   // Estado para controlar el botón de unmute
   const [isMuted, setIsMuted] = useState(true);
