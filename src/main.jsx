@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { App as CapacitorApp } from "@capacitor/app";
 import ChannelSelector from "./components/ChannelSelector.jsx";
+import Mtv80 from "./components/Mtv80.jsx";
 import Mtv90 from "./components/Mtv90.jsx";
 import Mtv00 from "./components/Mtv00.jsx";
 import "./index.css";
@@ -49,6 +50,10 @@ function App() {
   }
 
   // Mostrar el canal seleccionado con auto-unmute
+  if (selectedChannel === 'MTV80') {
+    return <Mtv80 autoUnmute={true} />;
+  }
+
   if (selectedChannel === 'MTV90') {
     return <Mtv90 autoUnmute={true} />;
   }

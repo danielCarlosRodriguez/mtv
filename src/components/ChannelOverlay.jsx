@@ -52,6 +52,9 @@ const ChannelOverlay = ({ video, channelName = 'MTV 90' }) => {
 
   // Determinar la ruta del logo según el canal
   const getLogoPath = (channel) => {
+    if (channel === 'MTV 80') {
+      return '/imagenes/logo-mtv-80.png';
+    }
     if (channel === 'MTV 90') {
       return '/imagenes/logo-mtv-90.png';
     }

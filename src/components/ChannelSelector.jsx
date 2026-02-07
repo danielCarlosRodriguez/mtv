@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 /**
  * Componente selector de canal con video de fondo
- * @param {Function} onChannelSelect - Callback cuando se selecciona un canal (recibe 'MTV90' o 'MTV00')
+ * @param {Function} onChannelSelect - Callback cuando se selecciona un canal (recibe 'MTV80', 'MTV90' o 'MTV00')
  */
 const ChannelSelector = ({ onChannelSelect }) => {
   // Estados para cargar videos de ambos canales
@@ -58,9 +58,10 @@ const ChannelSelector = ({ onChannelSelect }) => {
       try {
         setLoading(true);
         // Obtener años de ambos canales
+        const years80 = CHANNELS.MTV80.years;
         const years90 = CHANNELS.MTV90.years;
         const years00 = CHANNELS.MTV00.years;
-        const allYears = [...years90, ...years00];
+        const allYears = [...years80, ...years90, ...years00];
         
         // Cargar todos los videos
         const videos = await loadVideosByYears(allYears);
@@ -202,6 +203,21 @@ const ChannelSelector = ({ onChannelSelect }) => {
                   box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.4);
                 }
               `}</style>
+
+              {/* Botón MTV 80 con logo */}
+              <button
+                onClick={() => handleChannelSelect("MTV80")}
+                className="channel-button transition-all duration-300 transform hover:scale-110 cursor-pointer"
+                aria-label="Seleccionar MTV 80"
+              >
+                <img
+                  src="/imagenes/logo-mtv-80.png"
+                  alt="MTV 80"
+                  className="channel-logo h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  style={{ maxWidth: "400px" }}
+                />
+                <div className="focus-indicator" />
+              </button>
 
               {/* Botón MTV 90 con logo */}
               <button
