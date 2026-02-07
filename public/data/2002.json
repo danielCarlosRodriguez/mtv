@@ -1,38 +1,6 @@
 {
   "2002": [
     {
-      "url": "https://120minutes.org/video/081802/coldplay+yellow",
-      "name": "Coldplay | Yellow",
-      "youtubeUrl": "https://www.youtube.com/watch?v=yKNxeF4KMsY",
-      "youtubeId": "yKNxeF4KMsY",
-      "fecha": "2000",
-      "visitas": "1271662515"
-    },
-    {
-      "url": "https://120minutes.org/video/020302/gorillaz+clint+eastwood",
-      "name": "Gorillaz, \"Clint Eastwood\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=1V_xRb0x9aw",
-      "youtubeId": "1V_xRb0x9aw",
-      "fecha": "2001",
-      "visitas": "997086237"
-    },
-    {
-      "url": "https://120minutes.org/video/090802/blondie+heart+of+glass",
-      "name": "Blondie | Heart of Glass",
-      "youtubeUrl": "https://www.youtube.com/watch?v=WGU_4-5RaxU",
-      "youtubeId": "WGU_4-5RaxU",
-      "fecha": "1979",
-      "visitas": "622765862"
-    },
-    {
-      "url": "https://120minutes.org/video/072102/crowded+house+dont+dream+its+over",
-      "name": "Crowded House, \"Don't Dream It's Over\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=J9gKyRmic20",
-      "youtubeId": "J9gKyRmic20",
-      "fecha": "1986",
-      "visitas": "344172064"
-    },
-    {
       "url": "https://120minutes.org/video/081802/coldplay+in+my+place",
       "name": "Coldplay | In My Place",
       "youtubeUrl": "https://www.youtube.com/watch?v=gnIZ7RMuLpU",
@@ -49,36 +17,12 @@
       "visitas": "248781988"
     },
     {
-      "url": "https://120minutes.org/video/020302/gorillaz+19+2000",
-      "name": "Gorillaz, \"19-2000\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=WXR-bCF5dbM",
-      "youtubeId": "WXR-bCF5dbM",
-      "fecha": "2001",
-      "visitas": "201826900"
-    },
-    {
       "url": "https://120minutes.org/video/121502/queens+of+the+stone+age+no+one+knows",
       "name": "Queens of the Stone Age, \"No One Knows\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=s88r_q7oufE",
       "youtubeId": "s88r_q7oufE",
       "fecha": "2002",
       "visitas": "199540849"
-    },
-    {
-      "url": "https://120minutes.org/video/081802/coldplay+trouble",
-      "name": "Coldplay | Trouble",
-      "youtubeUrl": "https://www.youtube.com/watch?v=kcASPx3-HuI",
-      "youtubeId": "kcASPx3-HuI",
-      "fecha": "2000",
-      "visitas": "169569708"
-    },
-    {
-      "url": "https://120minutes.org/video/061602/the+verve+lucky+man",
-      "name": "The Verve, \"Lucky Man\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=MH6TJU0qWoY",
-      "youtubeId": "MH6TJU0qWoY",
-      "fecha": "1997",
-      "visitas": "124842203"
     },
     {
       "url": "https://120minutes.org/video/121502/foo+fighters+all+my+life",
@@ -89,36 +33,12 @@
       "visitas": "121218802"
     },
     {
-      "url": "https://120minutes.org/video/041402/depeche+mode+just+cant+get+enough",
-      "name": "Depeche Mode, \"Just Can't Get Enough\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=_6FBfAQ-NDE",
-      "youtubeId": "_6FBfAQ-NDE",
-      "fecha": "1981",
-      "visitas": "103835261"
-    },
-    {
       "url": "https://120minutes.org/video/120802/audioslave+cochise",
       "name": "Audioslave | Cochise",
       "youtubeUrl": "https://www.youtube.com/watch?v=KDMvN45sjo4",
       "youtubeId": "KDMvN45sjo4",
       "fecha": "2002",
       "visitas": "81565631"
-    },
-    {
-      "url": "https://120minutes.org/video/042802/gorillaz+rock+the+house",
-      "name": "Gorillaz, \"Rock the House\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lRlmM88zzbY",
-      "youtubeId": "lRlmM88zzbY",
-      "fecha": "2001",
-      "visitas": "75975692"
-    },
-    {
-      "url": "https://120minutes.org/video/020302/travis+sing",
-      "name": "Travis, \"Sing\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=eYO1-gGWJyo",
-      "youtubeId": "eYO1-gGWJyo",
-      "fecha": "2001",
-      "visitas": "50812333"
     },
     {
       "url": "https://120minutes.org/video/120102/maroon+5+harder+to+breathe",
@@ -129,100 +49,12 @@
       "visitas": "50162366"
     },
     {
-      "url": "https://120minutes.org/video/060902/the+strokes+hard+to+explain",
-      "name": "The Strokes, \"Hard to Explain\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=BXkm6h6uq0k",
-      "youtubeId": "BXkm6h6uq0k",
-      "fecha": "2001",
-      "visitas": "47016715"
-    },
-    {
-      "url": "https://120minutes.org/video/031702/go+gos+our+lips+are+sealed",
-      "name": "Go-Gos | \"Our Lips Are Sealed\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=r3kQlzOi27M",
-      "youtubeId": "r3kQlzOi27M",
-      "fecha": "1981",
-      "visitas": "41837325"
-    },
-    {
-      "url": "https://120minutes.org/video/081802/coldplay+shiver",
-      "name": "Coldplay | Shiver",
-      "youtubeUrl": "https://www.youtube.com/watch?v=u8XFFTWwSvY",
-      "youtubeId": "u8XFFTWwSvY",
-      "fecha": "2000",
-      "visitas": "41742443"
-    },
-    {
-      "url": "https://120minutes.org/video/063002/joe+jackson+steppin+out",
-      "name": "Joe Jackson, \"Steppin' Out\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=PJwt2dxx9yg",
-      "youtubeId": "PJwt2dxx9yg",
-      "fecha": "1982",
-      "visitas": "35763498"
-    },
-    {
-      "url": "https://120minutes.org/video/061602/the+hives+hate+to+say+i+told+you+so",
-      "name": "The Hives, \"Hate to Say I Told You So\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Uz1Jwyxd4tE",
-      "youtubeId": "Uz1Jwyxd4tE",
-      "fecha": "2000",
-      "visitas": "31885622"
-    },
-    {
-      "url": "https://120minutes.org/video/063002/the+las+there+she+goes",
-      "name": "The LA's, \"There She Goes\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CZXLLMbJdZ4",
-      "youtubeId": "CZXLLMbJdZ4",
-      "fecha": "1988",
-      "visitas": "31015078"
-    },
-    {
-      "url": "https://120minutes.org/video/041402/white+stripes+fell+in+love+with+a+girl",
-      "name": "White Stripes, \"Fell in Love With a Girl\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fTH71AAxXmM",
-      "youtubeId": "fTH71AAxXmM",
-      "fecha": "2001",
-      "visitas": "31006968"
-    },
-    {
-      "url": "https://120minutes.org/video/020302/travis+side",
-      "name": "Travis, \"Side\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VK3Q4SLVkAU",
-      "youtubeId": "VK3Q4SLVkAU",
-      "fecha": "2001",
-      "visitas": "30049509"
-    },
-    {
-      "url": "https://120minutes.org/video/012002/jamiroquai+alright",
-      "name": "Jamiroquai, \"Alright\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=9kXiLeBXzG4",
-      "youtubeId": "9kXiLeBXzG4",
-      "fecha": "1996",
-      "visitas": "29321514"
-    },
-    {
       "url": "https://120minutes.org/video/041402/phantom+planet+california",
       "name": "Phantom Planet, \"California\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=wq-S8CIU7VA",
       "youtubeId": "wq-S8CIU7VA",
       "fecha": "2002",
       "visitas": "28337996"
-    },
-    {
-      "url": "https://120minutes.org/video/032402/the+avalanches+frontier+psychiatrist",
-      "name": "The Avalanches, \"Frontier Psychiatrist\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=qLrnkK2YEcE",
-      "youtubeId": "qLrnkK2YEcE",
-      "fecha": "2000",
-      "visitas": "28111332"
-    },
-    {
-      "url": "https://120minutes.org/video/090102/cars+you+might+think",
-      "name": "Cars | You Might Think",
-      "youtubeUrl": "https://www.youtube.com/watch?v=3dOx510kyOs",
-      "youtubeId": "3dOx510kyOs",
-      "fecha": "1984",
-      "visitas": "26964091"
     },
     {
       "url": "https://120minutes.org/video/072102/moby+extreme+ways",
@@ -233,19 +65,11 @@
       "visitas": "26101560"
     },
     {
-      "url": "https://120minutes.org/video/090802/beastie+boys+sure+shot",
-      "name": "Beastie Boys | Sure Shot",
-      "youtubeUrl": "https://www.youtube.com/watch?v=JhqyZeUlE8U",
-      "youtubeId": "JhqyZeUlE8U",
-      "fecha": "1994",
-      "visitas": "25933678"
-    },
-    {
       "url": "https://120minutes.org/video/012002/pulp+disco+2000",
       "name": "Pulp, \"Disco 2000\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=qJS3xnD7Mus",
       "youtubeId": "qJS3xnD7Mus",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "25777105"
     },
     {
@@ -253,7 +77,7 @@
       "name": "Breeders | Cannonball",
       "youtubeUrl": "https://www.youtube.com/watch?v=fxvkI9MTQw4",
       "youtubeId": "fxvkI9MTQw4",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "25378851"
     },
     {
@@ -261,7 +85,7 @@
       "name": "Beck | Where It's At",
       "youtubeUrl": "https://www.youtube.com/watch?v=EPfmNxKLDG4",
       "youtubeId": "EPfmNxKLDG4",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "25334486"
     },
     {
@@ -269,7 +93,7 @@
       "name": "Jimmy Eat World, \"Sweetness\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ROatPGGMvXg",
       "youtubeId": "ROatPGGMvXg",
-      "fecha": "09/06/2002",
+      "fecha": "2002",
       "visitas": "24276299"
     },
     {
@@ -277,7 +101,7 @@
       "name": "David Gray, \"Babylon\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=zI_SBAkdKzc",
       "youtubeId": "zI_SBAkdKzc",
-      "fecha": "03/11/2002",
+      "fecha": "2002",
       "visitas": "23572185"
     },
     {
@@ -285,7 +109,7 @@
       "name": "The Cure, \"Fascination Street\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=7ZsQdLlvuk4",
       "youtubeId": "7ZsQdLlvuk4",
-      "fecha": "24/02/2002",
+      "fecha": "2002",
       "visitas": "21633477"
     },
     {
@@ -293,7 +117,7 @@
       "name": "Common, \"The Light\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=OjHX7jf-znA",
       "youtubeId": "OjHX7jf-znA",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "20555868"
     },
     {
@@ -301,7 +125,7 @@
       "name": "Blur | \"Parklife\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=YSuHrTfcikU",
       "youtubeId": "YSuHrTfcikU",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "20179535"
     },
     {
@@ -309,7 +133,7 @@
       "name": "Echo and the Bunnymen | Lips Like Sugar",
       "youtubeUrl": "https://www.youtube.com/watch?v=9hGcJA8fXvU",
       "youtubeId": "9hGcJA8fXvU",
-      "fecha": "18/08/2002",
+      "fecha": "2002",
       "visitas": "20079529"
     },
     {
@@ -317,7 +141,7 @@
       "name": "DJ Shadow, \"Six Days\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=eY-eyZuW_Uk",
       "youtubeId": "eY-eyZuW_Uk",
-      "fecha": "29/12/2002",
+      "fecha": "2002",
       "visitas": "19223389"
     },
     {
@@ -325,7 +149,7 @@
       "name": "The Stranglers | Always the Sun",
       "youtubeUrl": "https://www.youtube.com/watch?v=cYQTL-ws6p4",
       "youtubeId": "cYQTL-ws6p4",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "18829296"
     },
     {
@@ -333,7 +157,7 @@
       "name": "Queens of the Stone Age, \"The Lost Art of Keeping a Secret\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=0l0nzPpvbFs",
       "youtubeId": "0l0nzPpvbFs",
-      "fecha": "15/12/2002",
+      "fecha": "2002",
       "visitas": "17899754"
     },
     {
@@ -341,7 +165,7 @@
       "name": "Rufus Wainwright, \"Across the Universe\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=cAe1lVDbLf0",
       "youtubeId": "cAe1lVDbLf0",
-      "fecha": "31/03/2002",
+      "fecha": "2002",
       "visitas": "17069069"
     },
     {
@@ -349,7 +173,7 @@
       "name": "Dirty Vegas, \"Days Go By\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=gLCduDJVksc",
       "youtubeId": "gLCduDJVksc",
-      "fecha": "12/05/2002",
+      "fecha": "2002",
       "visitas": "16572339"
     },
     {
@@ -357,7 +181,7 @@
       "name": "Underworld, \"Born Slippy\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=XiMrrleH_hI",
       "youtubeId": "XiMrrleH_hI",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "15299631"
     },
     {
@@ -365,7 +189,7 @@
       "name": "Chemical Brothers, \"Star Guitar\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=0S43IwBF0uM",
       "youtubeId": "0S43IwBF0uM",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "14816967"
     },
     {
@@ -373,7 +197,7 @@
       "name": "Jeff Buckley | Last Goodbye",
       "youtubeUrl": "https://www.youtube.com/watch?v=3MMXjunSx80",
       "youtubeId": "3MMXjunSx80",
-      "fecha": "18/08/2002",
+      "fecha": "2002",
       "visitas": "14396721"
     },
     {
@@ -381,7 +205,7 @@
       "name": "White Stripes | Dead Leaves and the Dirty Ground",
       "youtubeUrl": "https://www.youtube.com/watch?v=7OyytKqYjkE",
       "youtubeId": "7OyytKqYjkE",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "14076227"
     },
     {
@@ -389,7 +213,7 @@
       "name": "Beck | Devil's Haircut",
       "youtubeUrl": "https://www.youtube.com/watch?v=aa3rBVb3v4g",
       "youtubeId": "aa3rBVb3v4g",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "13680086"
     },
     {
@@ -397,7 +221,7 @@
       "name": "Fiona Apple, \"Shadowboxer\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=QnXjISlKLuE",
       "youtubeId": "QnXjISlKLuE",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "12273697"
     },
     {
@@ -405,7 +229,7 @@
       "name": "Chemical Brothers, \"The Test\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=yhS9LnDoo_w",
       "youtubeId": "yhS9LnDoo_w",
-      "fecha": "16/06/2002",
+      "fecha": "2002",
       "visitas": "11434427"
     },
     {
@@ -413,7 +237,7 @@
       "name": "Clash | Tommy Gun",
       "youtubeUrl": "https://www.youtube.com/watch?v=bFHEuKkTa5k",
       "youtubeId": "bFHEuKkTa5k",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "11255483"
     },
     {
@@ -421,7 +245,7 @@
       "name": "Screaming Trees, \"Nearly Lost You\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=PE5f561Y1x4",
       "youtubeId": "PE5f561Y1x4",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "11245075"
     },
     {
@@ -429,7 +253,7 @@
       "name": "Radiohead | Knives Out",
       "youtubeUrl": "https://www.youtube.com/watch?v=2Lpw3yMCWro",
       "youtubeId": "2Lpw3yMCWro",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "10958104"
     },
     {
@@ -437,7 +261,7 @@
       "name": "The Smiths, \"Girlfriend in a Coma\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=3GhoWZ5qTwI",
       "youtubeId": "3GhoWZ5qTwI",
-      "fecha": "07/04/2002",
+      "fecha": "2002",
       "visitas": "10873861"
     },
     {
@@ -445,7 +269,7 @@
       "name": "David Gray, \"Please Forgive Me\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=qmFRXwYKQwU",
       "youtubeId": "qmFRXwYKQwU",
-      "fecha": "03/11/2002",
+      "fecha": "2002",
       "visitas": "10336024"
     },
     {
@@ -453,7 +277,7 @@
       "name": "The Vines, \"Get Free\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=asOvnGHwtDU",
       "youtubeId": "asOvnGHwtDU",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "10099212"
     },
     {
@@ -461,7 +285,7 @@
       "name": "Sonic Youth | Kool Thing",
       "youtubeUrl": "https://www.youtube.com/watch?v=SDTSUwIZdMk",
       "youtubeId": "SDTSUwIZdMk",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "10074028"
     },
     {
@@ -469,7 +293,7 @@
       "name": "Moby, \"We're All Made of Stars\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=xAh6fk0KD1c",
       "youtubeId": "xAh6fk0KD1c",
-      "fecha": "07/04/2002",
+      "fecha": "2002",
       "visitas": "9890201"
     },
     {
@@ -477,7 +301,7 @@
       "name": "Grandmaster Flash and the Furious 5 | The Message",
       "youtubeUrl": "https://www.youtube.com/watch?v=gYMkEMCHtJ4",
       "youtubeId": "gYMkEMCHtJ4",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "9557680"
     },
     {
@@ -485,7 +309,7 @@
       "name": "Beck | New Pollution",
       "youtubeUrl": "https://www.youtube.com/watch?v=uxugaMpt1vU",
       "youtubeId": "uxugaMpt1vU",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "8265404"
     },
     {
@@ -493,7 +317,7 @@
       "name": "Ramones | Rock n' Roll Highschool",
       "youtubeUrl": "https://www.youtube.com/watch?v=oz7KYUkdlvE",
       "youtubeId": "oz7KYUkdlvE",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "8205793"
     },
     {
@@ -501,7 +325,7 @@
       "name": "Pixies | Monkey Gone To Heaven",
       "youtubeUrl": "https://www.youtube.com/watch?v=EHC9HE7vazI",
       "youtubeId": "EHC9HE7vazI",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "7615394"
     },
     {
@@ -509,7 +333,7 @@
       "name": "Tom Waits, \"God's Away on Business\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=W9mhsW5aWJM",
       "youtubeId": "W9mhsW5aWJM",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "7398047"
     },
     {
@@ -517,7 +341,7 @@
       "name": "Sonic Youth | Dirty Boots",
       "youtubeUrl": "https://www.youtube.com/watch?v=7XdYnh729IQ",
       "youtubeId": "7XdYnh729IQ",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "7303462"
     },
     {
@@ -525,7 +349,7 @@
       "name": "James, \"Born of Frustration\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=QxM42rG0a08",
       "youtubeId": "QxM42rG0a08",
-      "fecha": "27/01/2002",
+      "fecha": "2002",
       "visitas": "7282051"
     },
     {
@@ -533,7 +357,7 @@
       "name": "Fiona Apple, \"Across the Universe\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=CmlnO1EwCT4",
       "youtubeId": "CmlnO1EwCT4",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "7244431"
     },
     {
@@ -541,7 +365,7 @@
       "name": "White Stripes, \"Hotel Yorba\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=DZPEUyiNcjA",
       "youtubeId": "DZPEUyiNcjA",
-      "fecha": "10/02/2002",
+      "fecha": "2002",
       "visitas": "7117275"
     },
     {
@@ -549,7 +373,7 @@
       "name": "OK Go | Get Over It",
       "youtubeUrl": "https://www.youtube.com/watch?v=3BxfpbyV-uc",
       "youtubeId": "3BxfpbyV-uc",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "7075511"
     },
     {
@@ -557,7 +381,7 @@
       "name": "David Bowie, \"Blue Jean\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=NZnryZ5rDbs",
       "youtubeId": "NZnryZ5rDbs",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "6947912"
     },
     {
@@ -565,7 +389,7 @@
       "name": "The Pogues, \"If I Should Fall From Grace With God\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=B4v6aNjGFFk",
       "youtubeId": "B4v6aNjGFFk",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "6799810"
     },
     {
@@ -573,7 +397,7 @@
       "name": "Dandy Warhols | Not If You Were The Last Junkie On Earth",
       "youtubeUrl": "https://www.youtube.com/watch?v=APrpB-i4d_E",
       "youtubeId": "APrpB-i4d_E",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "6639066"
     },
     {
@@ -581,7 +405,7 @@
       "name": "Bauhaus, \"Bela Lugosi Is Dead\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Yy9h2q_dr9k",
       "youtubeId": "Yy9h2q_dr9k",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "6590364"
     },
     {
@@ -589,7 +413,7 @@
       "name": "Love and Rockets | So Alive",
       "youtubeUrl": "https://www.youtube.com/watch?v=-L41MhFPU9s",
       "youtubeId": "-L41MhFPU9s",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "5889199"
     },
     {
@@ -597,7 +421,7 @@
       "name": "Kaito, \"Go!\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=s8aLjmnPUSU",
       "youtubeId": "s8aLjmnPUSU",
-      "fecha": "29/12/2002",
+      "fecha": "2002",
       "visitas": "5826638"
     },
     {
@@ -605,7 +429,7 @@
       "name": "Thursday, \"Understanding (In a Car Crash)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=8-cepZ6K7mY",
       "youtubeId": "8-cepZ6K7mY",
-      "fecha": "27/01/2002",
+      "fecha": "2002",
       "visitas": "5443691"
     },
     {
@@ -613,7 +437,7 @@
       "name": "Travis, \"Writing to Reach You\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=UeCcuH-EsuM",
       "youtubeId": "UeCcuH-EsuM",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "5396920"
     },
     {
@@ -621,7 +445,7 @@
       "name": "Elvis Costello, \"Everyday I Write The\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=V1d4r9awjKE",
       "youtubeId": "V1d4r9awjKE",
-      "fecha": "17/02/2002",
+      "fecha": "2002",
       "visitas": "5174908"
     },
     {
@@ -629,7 +453,7 @@
       "name": "Jack Johnson, \"Flake\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=5FnL3pNveM0",
       "youtubeId": "5FnL3pNveM0",
-      "fecha": "21/04/2002",
+      "fecha": "2002",
       "visitas": "4932787"
     },
     {
@@ -637,7 +461,7 @@
       "name": "Tori Amos, \"A Sorta Fairytale\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=C_C23JCduok",
       "youtubeId": "C_C23JCduok",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "4809001"
     },
     {
@@ -645,7 +469,7 @@
       "name": "Bauhaus, \"Ziggy Stardust\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=rhJZrRV5YKo",
       "youtubeId": "rhJZrRV5YKo",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "4756950"
     },
     {
@@ -653,7 +477,7 @@
       "name": "Kings of Convenience, \"Toxic Girl\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=_9UauaXTXUI",
       "youtubeId": "_9UauaXTXUI",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "4679923"
     },
     {
@@ -661,7 +485,7 @@
       "name": "Joe Jackson, \"Breaking Us in Two\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=n7IGRNWVQkc",
       "youtubeId": "n7IGRNWVQkc",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "4297054"
     },
     {
@@ -669,7 +493,7 @@
       "name": "Travis, \"Turn\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=v3tb-m0Ez4I",
       "youtubeId": "v3tb-m0Ez4I",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "3819899"
     },
     {
@@ -677,7 +501,7 @@
       "name": "Ben Folds, \"Still Fighting It\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=kqPwR39VMh0",
       "youtubeId": "kqPwR39VMh0",
-      "fecha": "21/04/2002",
+      "fecha": "2002",
       "visitas": "3763283"
     },
     {
@@ -685,7 +509,7 @@
       "name": "Bjork, \"Bachelorette\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=JNJv-Ebi67I",
       "youtubeId": "JNJv-Ebi67I",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "3631098"
     },
     {
@@ -693,7 +517,7 @@
       "name": "Pavement, \"Range Life\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=1VVj1zqbWpU",
       "youtubeId": "1VVj1zqbWpU",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "3321884"
     },
     {
@@ -701,7 +525,7 @@
       "name": "The Vines | Outtathaway",
       "youtubeUrl": "https://www.youtube.com/watch?v=gAL-1o7-bKc",
       "youtubeId": "gAL-1o7-bKc",
-      "fecha": "13/10/2002",
+      "fecha": "2002",
       "visitas": "3284798"
     },
     {
@@ -709,7 +533,7 @@
       "name": "Talking Heads | Nothing But Flowers",
       "youtubeUrl": "https://www.youtube.com/watch?v=2twY8YQYDBE",
       "youtubeId": "2twY8YQYDBE",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "3271769"
     },
     {
@@ -717,7 +541,7 @@
       "name": "Charlie Sexton, \"Beats so Lonely\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=uCRtHVEroQ0",
       "youtubeId": "uCRtHVEroQ0",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "3185717"
     },
     {
@@ -725,7 +549,7 @@
       "name": "Starsailor, \"Poor Misguided Fool\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=EGZJg4uo3-k",
       "youtubeId": "EGZJg4uo3-k",
-      "fecha": "05/05/2002",
+      "fecha": "2002",
       "visitas": "3119995"
     },
     {
@@ -733,7 +557,7 @@
       "name": "Ash | \"Girl From Mars\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=FkSl9GGOFHM",
       "youtubeId": "FkSl9GGOFHM",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "3072451"
     },
     {
@@ -741,7 +565,7 @@
       "name": "Flogging Molly, \"What's Left of the Flag\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Trkx9xLb5X8",
       "youtubeId": "Trkx9xLb5X8",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "2738130"
     },
     {
@@ -749,7 +573,7 @@
       "name": "Phantom Planet | Lonely Day",
       "youtubeUrl": "https://www.youtube.com/watch?v=JeFzvePcsqE",
       "youtubeId": "JeFzvePcsqE",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "2723231"
     },
     {
@@ -757,7 +581,7 @@
       "name": "Beck | Deadweight",
       "youtubeUrl": "https://www.youtube.com/watch?v=vptfm9D6owo",
       "youtubeId": "vptfm9D6owo",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "2676529"
     },
     {
@@ -765,7 +589,7 @@
       "name": "Koop, \"Summer Sun\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=V9A1JLlwUaM",
       "youtubeId": "V9A1JLlwUaM",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "2548092"
     },
     {
@@ -773,7 +597,7 @@
       "name": "Badly Drawn Boy | Silent Sigh",
       "youtubeUrl": "https://www.youtube.com/watch?v=NY-oQEy1KFU",
       "youtubeId": "NY-oQEy1KFU",
-      "fecha": "13/10/2002",
+      "fecha": "2002",
       "visitas": "2471611"
     },
     {
@@ -781,7 +605,7 @@
       "name": "The Streets | Let's Push Things Forward",
       "youtubeUrl": "https://www.youtube.com/watch?v=QOddpk8jOtU",
       "youtubeId": "QOddpk8jOtU",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "2385552"
     },
     {
@@ -789,7 +613,7 @@
       "name": "The Replacements, \"Bastards of Young\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=fl9KQ1Mub6Q",
       "youtubeId": "fl9KQ1Mub6Q",
-      "fecha": "09/06/2002",
+      "fecha": "2002",
       "visitas": "2370290"
     },
     {
@@ -797,7 +621,7 @@
       "name": "Wilco | Jesus Etc.",
       "youtubeUrl": "https://www.youtube.com/watch?v=cBhj73WtiZU",
       "youtubeId": "cBhj73WtiZU",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "2220188"
     },
     {
@@ -805,7 +629,7 @@
       "name": "BRMC, \"Whatever Happened to My Rock 'n Roll\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=jdTmk-YyUKg",
       "youtubeId": "jdTmk-YyUKg",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "2109961"
     },
     {
@@ -813,7 +637,7 @@
       "name": "The Wiseguys, \"Ooh La La\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=q8w5brfBqEM",
       "youtubeId": "q8w5brfBqEM",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "2029847"
     },
     {
@@ -821,7 +645,7 @@
       "name": "Tiger Army, \"Cupid's Victim\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZblzqEBwQRA",
       "youtubeId": "ZblzqEBwQRA",
-      "fecha": "02/06/2002",
+      "fecha": "2002",
       "visitas": "1959024"
     },
     {
@@ -829,7 +653,7 @@
       "name": "Zero 7 | Destiny",
       "youtubeUrl": "https://www.youtube.com/watch?v=U_OKigBRqBI",
       "youtubeId": "U_OKigBRqBI",
-      "fecha": "13/10/2002",
+      "fecha": "2002",
       "visitas": "1952461"
     },
     {
@@ -837,7 +661,7 @@
       "name": "Beck | Lost Cause",
       "youtubeUrl": "https://www.youtube.com/watch?v=-iEId2vmb0M",
       "youtubeId": "-iEId2vmb0M",
-      "fecha": "17/11/2002",
+      "fecha": "2002",
       "visitas": "1852357"
     },
     {
@@ -845,7 +669,7 @@
       "name": "David Gray | Other Side",
       "youtubeUrl": "https://www.youtube.com/watch?v=OsLcCYf0OLA",
       "youtubeId": "OsLcCYf0OLA",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "1836392"
     },
     {
@@ -853,7 +677,7 @@
       "name": "Breeders | Saints",
       "youtubeUrl": "https://www.youtube.com/watch?v=29DKkmZMTlk",
       "youtubeId": "29DKkmZMTlk",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "1835862"
     },
     {
@@ -861,7 +685,7 @@
       "name": "Crowded House, \"Into Temptation\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=j8U1gC2JilQ",
       "youtubeId": "j8U1gC2JilQ",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "1755031"
     },
     {
@@ -869,7 +693,7 @@
       "name": "Badly Drawn Boy, \"Once Around the Block\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=RPVAipmV7jY",
       "youtubeId": "RPVAipmV7jY",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "1752281"
     },
     {
@@ -877,7 +701,7 @@
       "name": "Beck | Pay No Mind",
       "youtubeUrl": "https://www.youtube.com/watch?v=yHjjqYQpBQg",
       "youtubeId": "yHjjqYQpBQg",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "1740014"
     },
     {
@@ -885,7 +709,7 @@
       "name": "The Smithereens, \"Behind the Wall of...\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=UNZbP3ZVem4",
       "youtubeId": "UNZbP3ZVem4",
-      "fecha": "16/06/2002",
+      "fecha": "2002",
       "visitas": "1725004"
     },
     {
@@ -893,7 +717,7 @@
       "name": "Felix Da Housecat, \"Silver Screen\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=fJvatGfD9Pg",
       "youtubeId": "fJvatGfD9Pg",
-      "fecha": "24/03/2002",
+      "fecha": "2002",
       "visitas": "1702129"
     },
     {
@@ -901,7 +725,7 @@
       "name": "Violent Femmes, \"American Music\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ag0XRlEvap8",
       "youtubeId": "Ag0XRlEvap8",
-      "fecha": "14/04/2002",
+      "fecha": "2002",
       "visitas": "1661602"
     },
     {
@@ -909,7 +733,7 @@
       "name": "Lambchop | In Something",
       "youtubeUrl": "https://www.youtube.com/watch?v=n6JKinrhrfc",
       "youtubeId": "n6JKinrhrfc",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "1606787"
     },
     {
@@ -917,7 +741,7 @@
       "name": "Ash | \"Burn Baby Burn\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=t5ZtotlZ0ug",
       "youtubeId": "t5ZtotlZ0ug",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "1589698"
     },
     {
@@ -925,7 +749,7 @@
       "name": "Supergrass | Richard the III",
       "youtubeUrl": "https://www.youtube.com/watch?v=UnXrrOxzZCE",
       "youtubeId": "UnXrrOxzZCE",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "1546498"
     },
     {
@@ -933,7 +757,7 @@
       "name": "Cher w/Beavis & Butt-Head, \"I Got You Babe\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=jyncsw3yq-k",
       "youtubeId": "jyncsw3yq-k",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "1517829"
     },
     {
@@ -941,7 +765,7 @@
       "name": "Bad Religion, \"Broken\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=u2yF8PmfpVA",
       "youtubeId": "u2yF8PmfpVA",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "1470820"
     },
     {
@@ -949,7 +773,7 @@
       "name": "Stereophonics, \"Don't Let Me Down\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=J0E2UnYjEeg",
       "youtubeId": "J0E2UnYjEeg",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "1378958"
     },
     {
@@ -957,7 +781,7 @@
       "name": "Doves, \"There Goes the Fear\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=SneuvKIkM3A",
       "youtubeId": "SneuvKIkM3A",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "1370946"
     },
     {
@@ -965,7 +789,7 @@
       "name": "Radiohead, \"Stop Whispering\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=DPpug5FUQsc",
       "youtubeId": "DPpug5FUQsc",
-      "fecha": "07/04/2002",
+      "fecha": "2002",
       "visitas": "1305648"
     },
     {
@@ -973,7 +797,7 @@
       "name": "Rufus Wainwright, \"California\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=SAXuYZtqO6Y",
       "youtubeId": "SAXuYZtqO6Y",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "1294675"
     },
     {
@@ -981,7 +805,7 @@
       "name": "Black Rebel Motorcycle Club, \"Love Burns\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=wV5b2RWK0e0",
       "youtubeId": "wV5b2RWK0e0",
-      "fecha": "31/03/2002",
+      "fecha": "2002",
       "visitas": "1265976"
     },
     {
@@ -989,7 +813,7 @@
       "name": "Sonic Youth | The Diamond Sea",
       "youtubeUrl": "https://www.youtube.com/watch?v=VpfZ60wqyUo",
       "youtubeId": "VpfZ60wqyUo",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "1144733"
     },
     {
@@ -997,7 +821,7 @@
       "name": "Breeders | Divine Hammer",
       "youtubeUrl": "https://www.youtube.com/watch?v=tUiP5eyx3NM",
       "youtubeId": "tUiP5eyx3NM",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "1111192"
     },
     {
@@ -1005,7 +829,7 @@
       "name": "Ryan Adams, \"Answering Bell\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Grkn6x6VWms",
       "youtubeId": "Grkn6x6VWms",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "1111056"
     },
     {
@@ -1013,7 +837,7 @@
       "name": "Travis | All I Want To Do Is Rock",
       "youtubeUrl": "https://www.youtube.com/watch?v=gMmhIzIwnC4",
       "youtubeId": "gMmhIzIwnC4",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "1100280"
     },
     {
@@ -1021,7 +845,7 @@
       "name": "Kinky, \"Cornman\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=89X0rn2osE0",
       "youtubeId": "89X0rn2osE0",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "1061329"
     },
     {
@@ -1029,7 +853,7 @@
       "name": "Underworld, \"Jumbo\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=i56xzNLvQDQ",
       "youtubeId": "i56xzNLvQDQ",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "984744"
     },
     {
@@ -1037,7 +861,7 @@
       "name": "Death Cab For Cutie, \"A Movie Script Ending\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=DmsEAWQwHY4",
       "youtubeId": "DmsEAWQwHY4",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "966830"
     },
     {
@@ -1045,7 +869,7 @@
       "name": "Screaming Trees, \"All I Know\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=rwvlUEm_fmA",
       "youtubeId": "rwvlUEm_fmA",
-      "fecha": "15/12/2002",
+      "fecha": "2002",
       "visitas": "907544"
     },
     {
@@ -1053,7 +877,7 @@
       "name": "Wilco, \"Jesus, etc.\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=v4_O4Sj-XTs",
       "youtubeId": "v4_O4Sj-XTs",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "884071"
     },
     {
@@ -1061,7 +885,7 @@
       "name": "Lambchop | Is A Woman",
       "youtubeUrl": "https://www.youtube.com/watch?v=5jfaqxcuebs",
       "youtubeId": "5jfaqxcuebs",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "875885"
     },
     {
@@ -1069,7 +893,7 @@
       "name": "Sparta | Cut Your Ribbon",
       "youtubeUrl": "https://www.youtube.com/watch?v=Eik6dKEljtE",
       "youtubeId": "Eik6dKEljtE",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "812996"
     },
     {
@@ -1077,7 +901,7 @@
       "name": "Jesus & Mary Chain, \"Far Gone & Out\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=7v4AAd00dSQ",
       "youtubeId": "7v4AAd00dSQ",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "791010"
     },
     {
@@ -1085,7 +909,7 @@
       "name": "Cousteau, \"Last Good Day of the Year\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=66W0D7HMD0E",
       "youtubeId": "66W0D7HMD0E",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "780343"
     },
     {
@@ -1093,7 +917,7 @@
       "name": "Pete Yorn, \"Strange Condition\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=5jwP_5A_R4E",
       "youtubeId": "5jwP_5A_R4E",
-      "fecha": "10/03/2002",
+      "fecha": "2002",
       "visitas": "766774"
     },
     {
@@ -1101,7 +925,7 @@
       "name": "Air, \"How Does It Make You Feel?\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=i0vl-7L-2Ow",
       "youtubeId": "i0vl-7L-2Ow",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "757505"
     },
     {
@@ -1109,7 +933,7 @@
       "name": "Sonic Youth | Empty Page",
       "youtubeUrl": "https://www.youtube.com/watch?v=AhvLh8bG6Hg",
       "youtubeId": "AhvLh8bG6Hg",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "754570"
     },
     {
@@ -1117,7 +941,7 @@
       "name": "Apples In Stereo | Signal In The Sky",
       "youtubeUrl": "https://www.youtube.com/watch?v=qwo5diOymR0",
       "youtubeId": "qwo5diOymR0",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "752333"
     },
     {
@@ -1125,7 +949,7 @@
       "name": "Ash | \"A Life Less Ordinary\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=szUeXBaOfl4",
       "youtubeId": "szUeXBaOfl4",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "742547"
     },
     {
@@ -1133,7 +957,7 @@
       "name": "South, \"Paint the Silence\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=2q7qjFJKOXs",
       "youtubeId": "2q7qjFJKOXs",
-      "fecha": "12/05/2002",
+      "fecha": "2002",
       "visitas": "711630"
     },
     {
@@ -1141,7 +965,7 @@
       "name": "The Breeders, \"Huffer\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=P7F3vWGQsVI",
       "youtubeId": "P7F3vWGQsVI",
-      "fecha": "02/06/2002",
+      "fecha": "2002",
       "visitas": "711407"
     },
     {
@@ -1149,7 +973,7 @@
       "name": "Rhett Miller, \"Come Around\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=EwBhjxeG_1s",
       "youtubeId": "EwBhjxeG_1s",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "677826"
     },
     {
@@ -1157,7 +981,7 @@
       "name": "The Raveonettes, \"Attack of the Ghost Rider\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=1gQEvupSrRY",
       "youtubeId": "1gQEvupSrRY",
-      "fecha": "15/12/2002",
+      "fecha": "2002",
       "visitas": "637259"
     },
     {
@@ -1165,7 +989,7 @@
       "name": "Tegan and Sara | I Hear Noises",
       "youtubeUrl": "https://www.youtube.com/watch?v=F2NPPVloVZU",
       "youtubeId": "F2NPPVloVZU",
-      "fecha": "17/11/2002",
+      "fecha": "2002",
       "visitas": "626149"
     },
     {
@@ -1173,7 +997,7 @@
       "name": "Underworld, \"Cowgirl\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=EfH8qHFvEEY",
       "youtubeId": "EfH8qHFvEEY",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "616845"
     },
     {
@@ -1181,7 +1005,7 @@
       "name": "The Jayhawks, \"Blue\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Z9mJ69Tqh84",
       "youtubeId": "Z9mJ69Tqh84",
-      "fecha": "10/03/2002",
+      "fecha": "2002",
       "visitas": "575423"
     },
     {
@@ -1189,7 +1013,7 @@
       "name": "Trail of Dead, \"Morning Stoner\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=kNf54L5uFZI",
       "youtubeId": "kNf54L5uFZI",
-      "fecha": "31/03/2002",
+      "fecha": "2002",
       "visitas": "574469"
     },
     {
@@ -1197,7 +1021,7 @@
       "name": "Ben Kweller | \"Wasted & Ready\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=TIkCpSyg5oY",
       "youtubeId": "TIkCpSyg5oY",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "552573"
     },
     {
@@ -1205,7 +1029,7 @@
       "name": "The Sundays | \"Here's Where The Story Ends\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=2HV5KfE4xMA",
       "youtubeId": "2HV5KfE4xMA",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "510337"
     },
     {
@@ -1213,7 +1037,7 @@
       "name": "Ours, \"Sometimes\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=erOMPA0Y0m8",
       "youtubeId": "erOMPA0Y0m8",
-      "fecha": "22/12/2002",
+      "fecha": "2002",
       "visitas": "509215"
     },
     {
@@ -1221,7 +1045,7 @@
       "name": "Rae & Christian f/ Dinah Washington, \"Is You or Is You Ain't My Baby?\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=iItm3f6MGEY",
       "youtubeId": "iItm3f6MGEY",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "490854"
     },
     {
@@ -1229,7 +1053,7 @@
       "name": "The Church, \"Metropolis\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=96YYp98ye9o",
       "youtubeId": "96YYp98ye9o",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "490165"
     },
     {
@@ -1237,7 +1061,7 @@
       "name": "Sloan, \"If It Feels Good Do It\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=CMRbbeGuaF8",
       "youtubeId": "CMRbbeGuaF8",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "482069"
     },
     {
@@ -1245,7 +1069,7 @@
       "name": "The Shins, \"Know Your Onion!\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=U4Y5Ma8DrUI",
       "youtubeId": "U4Y5Ma8DrUI",
-      "fecha": "21/04/2002",
+      "fecha": "2002",
       "visitas": "476445"
     },
     {
@@ -1253,7 +1077,7 @@
       "name": "Jellyfish, \"The King is Half Undressed\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=AgdgptaBma8",
       "youtubeId": "AgdgptaBma8",
-      "fecha": "22/12/2002",
+      "fecha": "2002",
       "visitas": "454454"
     },
     {
@@ -1261,7 +1085,7 @@
       "name": "Shara Hotnights, \"Alright Alright\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=y1avnmBG3kA",
       "youtubeId": "y1avnmBG3kA",
-      "fecha": "22/12/2002",
+      "fecha": "2002",
       "visitas": "451440"
     },
     {
@@ -1269,7 +1093,7 @@
       "name": "Lou Reed | Dirty Boulevard",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZH96BsL1R3U",
       "youtubeId": "ZH96BsL1R3U",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "420461"
     },
     {
@@ -1277,7 +1101,7 @@
       "name": "Badly Drawn Boy, \"Something to Talk About\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=urmIrfnUyCw",
       "youtubeId": "urmIrfnUyCw",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "394952"
     },
     {
@@ -1285,7 +1109,7 @@
       "name": "English Beat, \"Save it for Later\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=_0PUXt4-q80",
       "youtubeId": "_0PUXt4-q80",
-      "fecha": "24/02/2002",
+      "fecha": "2002",
       "visitas": "387835"
     },
     {
@@ -1293,7 +1117,7 @@
       "name": "Beth Orton, \"Concrete Sky\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=QJ-63s5xHy4",
       "youtubeId": "QJ-63s5xHy4",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "355866"
     },
     {
@@ -1301,7 +1125,7 @@
       "name": "Low, \"Half Light\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=dY-LaFHAfQc",
       "youtubeId": "dY-LaFHAfQc",
-      "fecha": "10/02/2002",
+      "fecha": "2002",
       "visitas": "352132"
     },
     {
@@ -1309,7 +1133,7 @@
       "name": "Cornelius, \"Drop\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=f18p7NXgbS0",
       "youtubeId": "f18p7NXgbS0",
-      "fecha": "17/02/2002",
+      "fecha": "2002",
       "visitas": "351690"
     },
     {
@@ -1317,7 +1141,7 @@
       "name": "The Doves, \"Catch the Sun\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=KqlIFLb6jU0",
       "youtubeId": "KqlIFLb6jU0",
-      "fecha": "23/06/2002",
+      "fecha": "2002",
       "visitas": "351609"
     },
     {
@@ -1325,7 +1149,7 @@
       "name": "R.E.M., \"Belong\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ag6EGdYhuuQ",
       "youtubeId": "Ag6EGdYhuuQ",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "344382"
     },
     {
@@ -1333,7 +1157,7 @@
       "name": "Pixies, \"Head On\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=oKKdylxI1YE",
       "youtubeId": "oKKdylxI1YE",
-      "fecha": "10/03/2002",
+      "fecha": "2002",
       "visitas": "341165"
     },
     {
@@ -1341,7 +1165,7 @@
       "name": "Trail of Dead, \"Relative Ways\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=OkW9w4LQZuo",
       "youtubeId": "OkW9w4LQZuo",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "339822"
     },
     {
@@ -1349,7 +1173,7 @@
       "name": "Pretty Girls Make Graves | \"Speakers Push The Air\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=0yeelwuKnCs",
       "youtubeId": "0yeelwuKnCs",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "303514"
     },
     {
@@ -1357,7 +1181,7 @@
       "name": "Wilco, \"Box Full of Letters\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=7gyZw5tvAhI",
       "youtubeId": "7gyZw5tvAhI",
-      "fecha": "14/04/2002",
+      "fecha": "2002",
       "visitas": "298382"
     },
     {
@@ -1365,7 +1189,7 @@
       "name": "1 Giant Leap featuring Robbie Williams | My Culture",
       "youtubeUrl": "https://www.youtube.com/watch?v=cOG1UBeTH4Y",
       "youtubeId": "cOG1UBeTH4Y",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "298031"
     },
     {
@@ -1373,7 +1197,7 @@
       "name": "The Replacements | \"When It Began\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=fS-1waMLk9k",
       "youtubeId": "fS-1waMLk9k",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "270089"
     },
     {
@@ -1381,7 +1205,7 @@
       "name": "Rival Schools, \"Good Things\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=cLjUI8t0v50",
       "youtubeId": "cLjUI8t0v50",
-      "fecha": "09/06/2002",
+      "fecha": "2002",
       "visitas": "263555"
     },
     {
@@ -1389,7 +1213,7 @@
       "name": "Dashboard Confessional | Saints and Sailors",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZDcLL4Sr8eU",
       "youtubeId": "ZDcLL4Sr8eU",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "261996"
     },
     {
@@ -1397,7 +1221,7 @@
       "name": "Doves, \"The Man Who Told Everything\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=KsfYpoEv3gc",
       "youtubeId": "KsfYpoEv3gc",
-      "fecha": "23/06/2002",
+      "fecha": "2002",
       "visitas": "261336"
     },
     {
@@ -1405,7 +1229,7 @@
       "name": "Nine Inch Nails, \"The Frail/The Wretched\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Z9oq4x980Uw",
       "youtubeId": "Z9oq4x980Uw",
-      "fecha": "10/02/2002",
+      "fecha": "2002",
       "visitas": "245051"
     },
     {
@@ -1413,7 +1237,7 @@
       "name": "Underworld, \"Underneath the Radar\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=br8AvTqZ0w4",
       "youtubeId": "br8AvTqZ0w4",
-      "fecha": "20/10/2002",
+      "fecha": "2002",
       "visitas": "235926"
     },
     {
@@ -1421,7 +1245,7 @@
       "name": "Super Furry Animals, \"It's Not the End of the World?\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=nlWLc8V_-SE",
       "youtubeId": "nlWLc8V_-SE",
-      "fecha": "05/05/2002",
+      "fecha": "2002",
       "visitas": "224936"
     },
     {
@@ -1429,7 +1253,7 @@
       "name": "Split Enz | \"History Never Repeats\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=xXrWTFvnqKI",
       "youtubeId": "xXrWTFvnqKI",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "217369"
     },
     {
@@ -1437,7 +1261,7 @@
       "name": "Elbow, \"Newborn (Domestic Version)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=w6teAV0cvv8",
       "youtubeId": "w6teAV0cvv8",
-      "fecha": "31/03/2002",
+      "fecha": "2002",
       "visitas": "209123"
     },
     {
@@ -1445,7 +1269,7 @@
       "name": "Clinic, \"Walking With Thee\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ozltNOVtnsg",
       "youtubeId": "ozltNOVtnsg",
-      "fecha": "10/03/2002",
+      "fecha": "2002",
       "visitas": "208371"
     },
     {
@@ -1453,7 +1277,7 @@
       "name": "Howie Day | Ghost",
       "youtubeUrl": "https://www.youtube.com/watch?v=eYIQi2CHkvo",
       "youtubeId": "eYIQi2CHkvo",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "187073"
     },
     {
@@ -1461,7 +1285,7 @@
       "name": "The Alarm, \"Rescue Me\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=QbJ59BM5T_k",
       "youtubeId": "QbJ59BM5T_k",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "162439"
     },
     {
@@ -1469,7 +1293,7 @@
       "name": "Badly Drawn Boy, \"Disillusion\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Haa7Vr0li5U",
       "youtubeId": "Haa7Vr0li5U",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "160641"
     },
     {
@@ -1477,7 +1301,7 @@
       "name": "Pulp | The Trees",
       "youtubeUrl": "https://www.youtube.com/watch?v=u6pGQIu1h-U",
       "youtubeId": "u6pGQIu1h-U",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "156439"
     },
     {
@@ -1485,7 +1309,7 @@
       "name": "Saves The Day, \"At Your Funeral\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=lHFIofq6ngo",
       "youtubeId": "lHFIofq6ngo",
-      "fecha": "27/01/2002",
+      "fecha": "2002",
       "visitas": "150990"
     },
     {
@@ -1493,7 +1317,7 @@
       "name": "Mekons | Memphis, Egypt",
       "youtubeUrl": "https://www.youtube.com/watch?v=SCQ6DLwV9CI",
       "youtubeId": "SCQ6DLwV9CI",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "143158"
     },
     {
@@ -1501,7 +1325,7 @@
       "name": "Mercury Rev, \"The Dark is Rising\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=-iquqEbPhDw",
       "youtubeId": "-iquqEbPhDw",
-      "fecha": "09/06/2002",
+      "fecha": "2002",
       "visitas": "142608"
     },
     {
@@ -1509,7 +1333,7 @@
       "name": "Jon Spencer Blues Explosion, \"Sweet N Sour\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=19KV46fb9z4",
       "youtubeId": "19KV46fb9z4",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "136367"
     },
     {
@@ -1517,7 +1341,7 @@
       "name": "Elvis Costello, \"45\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=KPZkldKk1WA",
       "youtubeId": "KPZkldKk1WA",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "131404"
     },
     {
@@ -1525,7 +1349,7 @@
       "name": "Neil Finn, \"She Will Have Her Way\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=NIPJtl3orZE",
       "youtubeId": "NIPJtl3orZE",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "124402"
     },
     {
@@ -1533,7 +1357,7 @@
       "name": "The (International) Noise Conspiracy, \"The Reproduction of Death\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=zTp524etVVc",
       "youtubeId": "zTp524etVVc",
-      "fecha": "03/02/2002",
+      "fecha": "2002",
       "visitas": "113758"
     },
     {
@@ -1541,7 +1365,7 @@
       "name": "Abandoned Pools | \"The Remedy\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=SIfDHO1IZa8",
       "youtubeId": "SIfDHO1IZa8",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "106675"
     },
     {
@@ -1549,7 +1373,7 @@
       "name": "Belle & Sebastian, \"The Wrong Girl\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=6d9sHXnT3ks",
       "youtubeId": "6d9sHXnT3ks",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "104257"
     },
     {
@@ -1557,7 +1381,7 @@
       "name": "Add N to (X) | Take Me To Your Leader",
       "youtubeUrl": "https://www.youtube.com/watch?v=fGGWrJp4JHA",
       "youtubeId": "fGGWrJp4JHA",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "97224"
     },
     {
@@ -1565,7 +1389,7 @@
       "name": "The Mooni Suzuki | \"In A Young Man's Mind\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=q1HUW1ldF_8",
       "youtubeId": "q1HUW1ldF_8",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "96228"
     },
     {
@@ -1573,7 +1397,7 @@
       "name": "Peaches, \"Rock Show\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=qKsAYCIZuPE",
       "youtubeId": "qKsAYCIZuPE",
-      "fecha": "23/06/2002",
+      "fecha": "2002",
       "visitas": "92711"
     },
     {
@@ -1581,7 +1405,7 @@
       "name": "Wilco | Heavy Mettle Drummer",
       "youtubeUrl": "https://www.youtube.com/watch?v=ERk4jXi0c1Y",
       "youtubeId": "ERk4jXi0c1Y",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "88901"
     },
     {
@@ -1589,7 +1413,7 @@
       "name": "The Elms | \"Hey, Hey\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=E7iXxp1OVEo",
       "youtubeId": "E7iXxp1OVEo",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "88644"
     },
     {
@@ -1597,7 +1421,7 @@
       "name": "Jon Spencer Blues Explosion, \"She Said\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=HW-17JDIPjI",
       "youtubeId": "HW-17JDIPjI",
-      "fecha": "02/06/2002",
+      "fecha": "2002",
       "visitas": "88602"
     },
     {
@@ -1605,7 +1429,7 @@
       "name": "Goldfrapp | \"Pilots\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=obt21bsYI4g",
       "youtubeId": "obt21bsYI4g",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "85264"
     },
     {
@@ -1613,7 +1437,7 @@
       "name": "Medeski Martin & Wood, \"Uninvisible\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=7Xiy_JIJdrg",
       "youtubeId": "7Xiy_JIJdrg",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "84868"
     },
     {
@@ -1621,7 +1445,7 @@
       "name": "Ash | \"Jesus Says\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=61EXldAwHzw",
       "youtubeId": "61EXldAwHzw",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "83101"
     },
     {
@@ -1629,7 +1453,7 @@
       "name": "Plaid, \"Eyen\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=qrN0DP97M8E",
       "youtubeId": "qrN0DP97M8E",
-      "fecha": "16/06/2002",
+      "fecha": "2002",
       "visitas": "76040"
     },
     {
@@ -1637,7 +1461,7 @@
       "name": "The Promise Ring, \"Emergency! Emergency!\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=1dTaeWeRUWw",
       "youtubeId": "1dTaeWeRUWw",
-      "fecha": "02/06/2002",
+      "fecha": "2002",
       "visitas": "74907"
     },
     {
@@ -1645,7 +1469,7 @@
       "name": "Gorillaz, \"19-2000 (Remix Version)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ecDaK3rbYTM",
       "youtubeId": "ecDaK3rbYTM",
-      "fecha": "17/02/2002",
+      "fecha": "2002",
       "visitas": "66626"
     },
     {
@@ -1653,7 +1477,7 @@
       "name": "Neil Finn, \"Weather With You (Live)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=vJZnzZpKvmM",
       "youtubeId": "vJZnzZpKvmM",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "65539"
     },
     {
@@ -1661,7 +1485,7 @@
       "name": "Morcheeba | Otherwise",
       "youtubeUrl": "https://www.youtube.com/watch?v=2YEQIAk5ECI",
       "youtubeId": "2YEQIAk5ECI",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "63309"
     },
     {
@@ -1669,7 +1493,7 @@
       "name": "Spiritualized, \"Do It All Over Down\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=s2v0PZOpRqg",
       "youtubeId": "s2v0PZOpRqg",
-      "fecha": "12/05/2002",
+      "fecha": "2002",
       "visitas": "62221"
     },
     {
@@ -1677,7 +1501,7 @@
       "name": "Tanya Donelly, \"Keeping You\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=LzhyZz09Kds",
       "youtubeId": "LzhyZz09Kds",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "60133"
     },
     {
@@ -1685,7 +1509,7 @@
       "name": "World Party | Call Me Up",
       "youtubeUrl": "https://www.youtube.com/watch?v=4QG4kn1OWb4",
       "youtubeId": "4QG4kn1OWb4",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "58240"
     },
     {
@@ -1693,7 +1517,7 @@
       "name": "Sondre Lerche | You Know Me So Well",
       "youtubeUrl": "https://www.youtube.com/watch?v=YylVxXWSVIQ",
       "youtubeId": "YylVxXWSVIQ",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "58115"
     },
     {
@@ -1701,7 +1525,7 @@
       "name": "Saves the Day, \"Freakish\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=g6waaT_3DZc",
       "youtubeId": "g6waaT_3DZc",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "55299"
     },
     {
@@ -1709,7 +1533,7 @@
       "name": "Apples in Stereo | Please",
       "youtubeUrl": "https://www.youtube.com/watch?v=yw_HaeIh1VI",
       "youtubeId": "yw_HaeIh1VI",
-      "fecha": "17/11/2002",
+      "fecha": "2002",
       "visitas": "53884"
     },
     {
@@ -1717,7 +1541,7 @@
       "name": "J. Mascis and the Fog, \"Everybody Lets Me Down\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Pgze5wQFVmA",
       "youtubeId": "Pgze5wQFVmA",
-      "fecha": "29/12/2002",
+      "fecha": "2002",
       "visitas": "53418"
     },
     {
@@ -1725,7 +1549,7 @@
       "name": "Dashboard Confessional, \"Best Deception (Unplugged)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=iRHbzF17170",
       "youtubeId": "iRHbzF17170",
-      "fecha": "22/12/2002",
+      "fecha": "2002",
       "visitas": "53241"
     },
     {
@@ -1733,7 +1557,7 @@
       "name": "Morrissey | The More You Ignore Me, The Closer I Get",
       "youtubeUrl": "https://www.youtube.com/watch?v=PtPlx8yI4JA",
       "youtubeId": "PtPlx8yI4JA",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "52659"
     },
     {
@@ -1741,7 +1565,7 @@
       "name": "Cousteau, \"Talking to Myself\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ceGIrkN9CdM",
       "youtubeId": "ceGIrkN9CdM",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "51008"
     },
     {
@@ -1749,7 +1573,7 @@
       "name": "John Spencer Blues Explosion | Sweet n' Sour",
       "youtubeUrl": "https://www.youtube.com/watch?v=kcz_iZcCs-k",
       "youtubeId": "kcz_iZcCs-k",
-      "fecha": "08/09/2002",
+      "fecha": "2002",
       "visitas": "45986"
     },
     {
@@ -1757,7 +1581,7 @@
       "name": "Space Monkeys vs. Gorrilaz | ?",
       "youtubeUrl": "https://www.youtube.com/watch?v=JsmCjNBkCEY",
       "youtubeId": "JsmCjNBkCEY",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "45606"
     },
     {
@@ -1765,7 +1589,7 @@
       "name": "Spoon | Small Stakes",
       "youtubeUrl": "https://www.youtube.com/watch?v=x8nF8L5Fgzc",
       "youtubeId": "x8nF8L5Fgzc",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "45318"
     },
     {
@@ -1773,7 +1597,7 @@
       "name": "The Catheters, \"Nothing\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=3KRF8TFhj70",
       "youtubeId": "3KRF8TFhj70",
-      "fecha": "29/12/2002",
+      "fecha": "2002",
       "visitas": "44790"
     },
     {
@@ -1781,7 +1605,7 @@
       "name": "Candy Butchers | You Belong To Me Now",
       "youtubeUrl": "https://www.youtube.com/watch?v=g24Dk7JSgaE",
       "youtubeId": "g24Dk7JSgaE",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "43991"
     },
     {
@@ -1789,7 +1613,7 @@
       "name": "Badly Drawn Boy, \"Spitting in the Wind\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=J0POI7qC0uc",
       "youtubeId": "J0POI7qC0uc",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "43195"
     },
     {
@@ -1797,7 +1621,7 @@
       "name": "Beth Orton | Anywhere",
       "youtubeUrl": "https://www.youtube.com/watch?v=sLX6xjbCuuA",
       "youtubeId": "sLX6xjbCuuA",
-      "fecha": "10/11/2002",
+      "fecha": "2002",
       "visitas": "43144"
     },
     {
@@ -1805,7 +1629,7 @@
       "name": "Doves | Caught by the River",
       "youtubeUrl": "https://www.youtube.com/watch?v=YDlDYCKa4lo",
       "youtubeId": "YDlDYCKa4lo",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "43028"
     },
     {
@@ -1813,7 +1637,7 @@
       "name": "Moth, \"I See Sound\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=TiHRhlhdtk0",
       "youtubeId": "TiHRhlhdtk0",
-      "fecha": "07/04/2002",
+      "fecha": "2002",
       "visitas": "40631"
     },
     {
@@ -1821,7 +1645,7 @@
       "name": "Jon Spencer Blues Explosion | \"Sweet N Sour\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=6I8wsCEGH10",
       "youtubeId": "6I8wsCEGH10",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "38322"
     },
     {
@@ -1829,7 +1653,7 @@
       "name": "The Walkmen, \"Wake Up\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=E0eovJO7LS4",
       "youtubeId": "E0eovJO7LS4",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "37975"
     },
     {
@@ -1837,7 +1661,7 @@
       "name": "Adam Ant, \"Wonderful\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=aehs-q05J9A",
       "youtubeId": "aehs-q05J9A",
-      "fecha": "27/01/2002",
+      "fecha": "2002",
       "visitas": "37745"
     },
     {
@@ -1845,7 +1669,7 @@
       "name": "Neil Finn, \"Sinner\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=MSD6GxRyoB4",
       "youtubeId": "MSD6GxRyoB4",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "36965"
     },
     {
@@ -1853,7 +1677,7 @@
       "name": "Sneaker Pimps, \"Sick\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=vzi-NufT-t8",
       "youtubeId": "vzi-NufT-t8",
-      "fecha": "12/05/2002",
+      "fecha": "2002",
       "visitas": "29282"
     },
     {
@@ -1861,7 +1685,7 @@
       "name": "Baldwin Brothers | Dreamgirl",
       "youtubeUrl": "https://www.youtube.com/watch?v=Y28wrsJkDkI",
       "youtubeId": "Y28wrsJkDkI",
-      "fecha": "18/08/2002",
+      "fecha": "2002",
       "visitas": "27941"
     },
     {
@@ -1869,7 +1693,7 @@
       "name": "Girls vs. Boys, \"Bassstation\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=q4XzebP9uz8",
       "youtubeId": "q4XzebP9uz8",
-      "fecha": "22/12/2002",
+      "fecha": "2002",
       "visitas": "27075"
     },
     {
@@ -1877,7 +1701,7 @@
       "name": "Preston School of Industry, \"Falling Away\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=slCzLoi-JUU",
       "youtubeId": "slCzLoi-JUU",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "25746"
     },
     {
@@ -1885,7 +1709,7 @@
       "name": "One Line Drawing | Smile",
       "youtubeUrl": "https://www.youtube.com/watch?v=XYcuonEb0kg",
       "youtubeId": "XYcuonEb0kg",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "23603"
     },
     {
@@ -1893,7 +1717,7 @@
       "name": "The Strokes, \"Last Nite ($2 Bill Performance)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=WJYuUYOvwlA",
       "youtubeId": "WJYuUYOvwlA",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "23124"
     },
     {
@@ -1901,7 +1725,7 @@
       "name": "Ed Harcourt, \"Apple of my Eye\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=SJ-_pL6jSUg",
       "youtubeId": "SJ-_pL6jSUg",
-      "fecha": "28/04/2002",
+      "fecha": "2002",
       "visitas": "20757"
     },
     {
@@ -1909,7 +1733,7 @@
       "name": "Howie Beck | Maybe I Belong",
       "youtubeUrl": "https://www.youtube.com/watch?v=sQIr9YLlDeU",
       "youtubeId": "sQIr9YLlDeU",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "20619"
     },
     {
@@ -1917,7 +1741,7 @@
       "name": "Kings of Convenience, \"Failure\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=NAnJ-eep_64",
       "youtubeId": "NAnJ-eep_64",
-      "fecha": "20/01/2002",
+      "fecha": "2002",
       "visitas": "20494"
     },
     {
@@ -1925,7 +1749,7 @@
       "name": "All Else Failed, \"In Time\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=Cs_sTARlW9s",
       "youtubeId": "Cs_sTARlW9s",
-      "fecha": "17/02/2002",
+      "fecha": "2002",
       "visitas": "19506"
     },
     {
@@ -1933,7 +1757,7 @@
       "name": "Josh Rouse | Miracle",
       "youtubeUrl": "https://www.youtube.com/watch?v=DH7cvi1PQx4",
       "youtubeId": "DH7cvi1PQx4",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "19021"
     },
     {
@@ -1941,7 +1765,7 @@
       "name": "Badly Drawn Boy | You were Right",
       "youtubeUrl": "https://www.youtube.com/watch?v=KWp3k3z8tBI",
       "youtubeId": "KWp3k3z8tBI",
-      "fecha": "08/12/2002",
+      "fecha": "2002",
       "visitas": "18761"
     },
     {
@@ -1949,7 +1773,7 @@
       "name": "Liars | Mr. You're On Fire Mr.",
       "youtubeUrl": "https://www.youtube.com/watch?v=Aw4UhcutkAo",
       "youtubeId": "Aw4UhcutkAo",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "18710"
     },
     {
@@ -1957,7 +1781,7 @@
       "name": "Powder | Up Here",
       "youtubeUrl": "https://www.youtube.com/watch?v=FzQWCh3uFhg",
       "youtubeId": "FzQWCh3uFhg",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "18486"
     },
     {
@@ -1965,7 +1789,7 @@
       "name": "Mull Historical Secret, \"Watching Xanadu\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=-A8D-faDNkM",
       "youtubeId": "-A8D-faDNkM",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "17980"
     },
     {
@@ -1973,7 +1797,7 @@
       "name": "The (International) Noise Conspiracy, \"Up For Sale\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=PMq-vD45290",
       "youtubeId": "PMq-vD45290",
-      "fecha": "23/06/2002",
+      "fecha": "2002",
       "visitas": "16321"
     },
     {
@@ -1981,7 +1805,7 @@
       "name": "Ours | Leaves",
       "youtubeUrl": "https://www.youtube.com/watch?v=onT5dtDrHgM",
       "youtubeId": "onT5dtDrHgM",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "14285"
     },
     {
@@ -1989,7 +1813,7 @@
       "name": "Luna | Lovedust",
       "youtubeUrl": "https://www.youtube.com/watch?v=qZ3S_5i3Mj0",
       "youtubeId": "qZ3S_5i3Mj0",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "14071"
     },
     {
@@ -1997,7 +1821,7 @@
       "name": "Dashboard Confessional, \"Screaming Infidelities\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=pHLhi9-KreY",
       "youtubeId": "pHLhi9-KreY",
-      "fecha": "10/02/2002",
+      "fecha": "2002",
       "visitas": "13466"
     },
     {
@@ -2005,7 +1829,7 @@
       "name": "Lo-Fidelity Allstars | \"Sleeping Faster\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=IVT5-TDR-JA",
       "youtubeId": "IVT5-TDR-JA",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "13185"
     },
     {
@@ -2013,7 +1837,7 @@
       "name": "The Promise Ring, \"Stop Playing Guitar\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=iBGOkUiMbJo",
       "youtubeId": "iBGOkUiMbJo",
-      "fecha": "12/05/2002",
+      "fecha": "2002",
       "visitas": "12913"
     },
     {
@@ -2021,7 +1845,7 @@
       "name": "The Sound of Urchin, \"Scary Skull Eyes\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=65LXw7AwjqU",
       "youtubeId": "65LXw7AwjqU",
-      "fecha": "05/05/2002",
+      "fecha": "2002",
       "visitas": "12092"
     },
     {
@@ -2029,7 +1853,7 @@
       "name": "Vue, \"Pictures of Me\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=RYLya5zJ39Q",
       "youtubeId": "RYLya5zJ39Q",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "11938"
     },
     {
@@ -2037,7 +1861,7 @@
       "name": "The Pattern | Fragile Awareness",
       "youtubeUrl": "https://www.youtube.com/watch?v=XYrqI9Jkieo",
       "youtubeId": "XYrqI9Jkieo",
-      "fecha": "13/10/2002",
+      "fecha": "2002",
       "visitas": "11630"
     },
     {
@@ -2045,7 +1869,7 @@
       "name": "The Kickovers, \"Heart Attack\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=xlRn4meudWE",
       "youtubeId": "xlRn4meudWE",
-      "fecha": "16/06/2002",
+      "fecha": "2002",
       "visitas": "11174"
     },
     {
@@ -2053,7 +1877,7 @@
       "name": "The Dismemberment Plan, \"Time Bomb\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ThSGU1gJl9U",
       "youtubeId": "ThSGU1gJl9U",
-      "fecha": "15/12/2002",
+      "fecha": "2002",
       "visitas": "10368"
     },
     {
@@ -2061,7 +1885,7 @@
       "name": "Firewater, \"Woke Up Down\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=zIqaS-nqbeE",
       "youtubeId": "zIqaS-nqbeE",
-      "fecha": "12/05/2002",
+      "fecha": "2002",
       "visitas": "10139"
     },
     {
@@ -2069,7 +1893,7 @@
       "name": "The Pernice Brothers, \"Working Girls\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=UJ__fLrpXM8",
       "youtubeId": "UJ__fLrpXM8",
-      "fecha": "24/03/2002",
+      "fecha": "2002",
       "visitas": "10107"
     },
     {
@@ -2077,7 +1901,7 @@
       "name": "Looper | \"The Snare\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=-L6RPLfqzsE",
       "youtubeId": "-L6RPLfqzsE",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "10072"
     },
     {
@@ -2085,7 +1909,7 @@
       "name": "Sondre Lerche | You Know So Well",
       "youtubeUrl": "https://www.youtube.com/watch?v=zJockEWHryg",
       "youtubeId": "zJockEWHryg",
-      "fecha": "17/11/2002",
+      "fecha": "2002",
       "visitas": "8994"
     },
     {
@@ -2093,7 +1917,7 @@
       "name": "Bent, \"Swollen\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=lh9JItm2z7I",
       "youtubeId": "lh9JItm2z7I",
-      "fecha": "17/03/2002",
+      "fecha": "2002",
       "visitas": "8716"
     },
     {
@@ -2101,7 +1925,7 @@
       "name": "French Kicks | Close To Modern",
       "youtubeUrl": "https://www.youtube.com/watch?v=lx-keqJwrrU",
       "youtubeId": "lx-keqJwrrU",
-      "fecha": "22/09/2002",
+      "fecha": "2002",
       "visitas": "8342"
     },
     {
@@ -2109,7 +1933,7 @@
       "name": "Chore, \"The Hitchhiker\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=bDjfnZQHMkc",
       "youtubeId": "bDjfnZQHMkc",
-      "fecha": "02/06/2002",
+      "fecha": "2002",
       "visitas": "7543"
     },
     {
@@ -2117,7 +1941,7 @@
       "name": "Matthew, \"Everybody Down\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=u_QidEg-22A",
       "youtubeId": "u_QidEg-22A",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "6852"
     },
     {
@@ -2125,7 +1949,7 @@
       "name": "Gay Dad, \"Transmission\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=TdFPFeQfXdQ",
       "youtubeId": "TdFPFeQfXdQ",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "6520"
     },
     {
@@ -2133,7 +1957,7 @@
       "name": "The Crack Pipes, \"Record Player Party\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZFtgU8Z6MIQ",
       "youtubeId": "ZFtgU8Z6MIQ",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "4890"
     },
     {
@@ -2141,7 +1965,7 @@
       "name": "Sodastream, \"Heaven on the Ground\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=_d8T0rqSNRo",
       "youtubeId": "_d8T0rqSNRo",
-      "fecha": "23/06/2002",
+      "fecha": "2002",
       "visitas": "4885"
     },
     {
@@ -2149,7 +1973,7 @@
       "name": "Citizen Cope, \"If There's Love\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=FyJah733kIo",
       "youtubeId": "FyJah733kIo",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "4078"
     },
     {
@@ -2157,7 +1981,7 @@
       "name": "Beth Orion | concrete sky",
       "youtubeUrl": "https://www.youtube.com/watch?v=4EqhKJtripc",
       "youtubeId": "4EqhKJtripc",
-      "fecha": "01/09/2002",
+      "fecha": "2002",
       "visitas": "3173"
     },
     {
@@ -2165,7 +1989,7 @@
       "name": "Division of Laura Lee, \"Need to get Some\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=uNxT39VMifE",
       "youtubeId": "uNxT39VMifE",
-      "fecha": "15/12/2002",
+      "fecha": "2002",
       "visitas": "2887"
     },
     {
@@ -2173,7 +1997,7 @@
       "name": "Elf Power, \"Let the Serpent Sleep\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=mG0ESGndyPY",
       "youtubeId": "mG0ESGndyPY",
-      "fecha": "30/06/2002",
+      "fecha": "2002",
       "visitas": "2844"
     },
     {
@@ -2181,7 +2005,7 @@
       "name": "Luna, \"Slash Your Tires\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=pO_K7RTcmjQ",
       "youtubeId": "pO_K7RTcmjQ",
-      "fecha": "29/12/2002",
+      "fecha": "2002",
       "visitas": "2790"
     },
     {
@@ -2189,7 +2013,7 @@
       "name": "Quarashi, \"Stick 'em up\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=oiBfIJ_iUyI",
       "youtubeId": "oiBfIJ_iUyI",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "2569"
     },
     {
@@ -2197,7 +2021,7 @@
       "name": "North Mississippi Allstars, \"Sugartown\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=yFtlRYmSEMA",
       "youtubeId": "yFtlRYmSEMA",
-      "fecha": "31/03/2002",
+      "fecha": "2002",
       "visitas": "2553"
     },
     {
@@ -2205,7 +2029,7 @@
       "name": "Super Furry Animals | Fire in My Heart",
       "youtubeUrl": "https://www.youtube.com/watch?v=m8jXP5u0PRQ",
       "youtubeId": "m8jXP5u0PRQ",
-      "fecha": "06/10/2002",
+      "fecha": "2002",
       "visitas": "2346"
     },
     {
@@ -2213,7 +2037,7 @@
       "name": "Arlo | Linger On",
       "youtubeUrl": "https://www.youtube.com/watch?v=YbPF-s9Tshk",
       "youtubeId": "YbPF-s9Tshk",
-      "fecha": "01/12/2002",
+      "fecha": "2002",
       "visitas": "1487"
     },
     {
@@ -2221,7 +2045,7 @@
       "name": "Hope Sandoval and the Warm Inventions | Suzanne",
       "youtubeUrl": "https://www.youtube.com/watch?v=0A-3ozItoxc",
       "youtubeId": "0A-3ozItoxc",
-      "fecha": "13/10/2002",
+      "fecha": "2002",
       "visitas": "1285"
     },
     {
@@ -2229,7 +2053,7 @@
       "name": "Appliance, \"Land, Sea, and Air\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=1GEKeivaB7g",
       "youtubeId": "1GEKeivaB7g",
-      "fecha": "10/02/2002",
+      "fecha": "2002",
       "visitas": "1149"
     },
     {
@@ -2237,7 +2061,7 @@
       "name": "My Vitriol, \"Grounded\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=5Yvysm2gUus",
       "youtubeId": "5Yvysm2gUus",
-      "fecha": "14/07/2002",
+      "fecha": "2002",
       "visitas": "989"
     },
     {
@@ -2245,7 +2069,7 @@
       "name": "Cato Salsa Expierence | \"So The Circus Is Back In Town\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=xLNoV-mnB74",
       "youtubeId": "xLNoV-mnB74",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "903"
     },
     {
@@ -2253,7 +2077,7 @@
       "name": "The Kickovers, \"Fake in Love\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=2u7B3H2yIbg",
       "youtubeId": "2u7B3H2yIbg",
-      "fecha": "05/05/2002",
+      "fecha": "2002",
       "visitas": "778"
     },
     {
@@ -2261,7 +2085,7 @@
       "name": "Piebald | Just a Simple Plan",
       "youtubeUrl": "https://www.youtube.com/watch?v=fGT_myMT_E8",
       "youtubeId": "fGT_myMT_E8",
-      "fecha": "18/08/2002",
+      "fecha": "2002",
       "visitas": "677"
     },
     {
@@ -2269,7 +2093,7 @@
       "name": "Ugly Casanova | \"Things I Don't Remember\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=X1WRA0F0ibA",
       "youtubeId": "X1WRA0F0ibA",
-      "fecha": "28/07/2002",
+      "fecha": "2002",
       "visitas": "563"
     },
     {
@@ -2277,7 +2101,7 @@
       "name": "S.I. Futures, \"Freestyle Disco\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=vNomejIvmtw",
       "youtubeId": "vNomejIvmtw",
-      "fecha": "24/02/2002",
+      "fecha": "2002",
       "visitas": "552"
     },
     {
@@ -2285,7 +2109,7 @@
       "name": "The Pernice Brothers, \"Working Girls\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=miHkiLc_kQg",
       "youtubeId": "miHkiLc_kQg",
-      "fecha": "16/06/2002",
+      "fecha": "2002",
       "visitas": "533"
     },
     {
@@ -2293,7 +2117,7 @@
       "name": "Brendan Benson, \"Tiny Spark\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=ef8BtXObFIs",
       "youtubeId": "ef8BtXObFIs",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "486"
     },
     {
@@ -2301,7 +2125,7 @@
       "name": "Space Monkeys f/ Gorillaz, \"A Lil' Dub Chefin\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=wC02fMgrlgc",
       "youtubeId": "wC02fMgrlgc",
-      "fecha": "04/08/2002",
+      "fecha": "2002",
       "visitas": "401"
     },
     {
@@ -2309,7 +2133,7 @@
       "name": "Cato Salsa Experience | Deadbeat",
       "youtubeUrl": "https://www.youtube.com/watch?v=2UXWXBS0R_M",
       "youtubeId": "2UXWXBS0R_M",
-      "fecha": "17/11/2002",
+      "fecha": "2002",
       "visitas": "358"
     },
     {
@@ -2317,7 +2141,7 @@
       "name": "Consonant | Call it L---",
       "youtubeUrl": "https://www.youtube.com/watch?v=LyVVW14Ma7w",
       "youtubeId": "LyVVW14Ma7w",
-      "fecha": "11/08/2002",
+      "fecha": "2002",
       "visitas": "318"
     },
     {
@@ -2325,7 +2149,7 @@
       "name": "Bjork, \"One Day (Unplugged)\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=MhDOQuaILNg",
       "youtubeId": "MhDOQuaILNg",
-      "fecha": "03/03/2002",
+      "fecha": "2002",
       "visitas": "221"
     },
     {
@@ -2333,7 +2157,7 @@
       "name": "The Moldy Peaches, \"Lucky Number Nine\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=n46mhG10NsU",
       "youtubeId": "n46mhG10NsU",
-      "fecha": "15/09/2002",
+      "fecha": "2002",
       "visitas": "206"
     },
     {
@@ -2341,7 +2165,7 @@
       "name": "The Hellacopters, \"Hopeless Case of a Kid in Denial\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=MtucpZboneE",
       "youtubeId": "MtucpZboneE",
-      "fecha": "21/07/2002",
+      "fecha": "2002",
       "visitas": "204"
     },
     {
@@ -2349,7 +2173,7 @@
       "name": "Slick Shoes, \"Alone\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=fVWHY_udnjs",
       "youtubeId": "fVWHY_udnjs",
-      "fecha": "23/06/2002",
+      "fecha": "2002",
       "visitas": "164"
     },
     {
@@ -2357,7 +2181,7 @@
       "name": "Girls Against Boys | Basstation",
       "youtubeUrl": "https://www.youtube.com/watch?v=A2xY_44saNs",
       "youtubeId": "A2xY_44saNs",
-      "fecha": "13/10/2002",
+      "fecha": "2002",
       "visitas": "19"
     },
     {
@@ -2365,8 +2189,280 @@
       "name": "Doves, \"By the River\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=fwPTOVWp5Gg",
       "youtubeId": "fwPTOVWp5Gg",
-      "fecha": "27/10/2002",
+      "fecha": "2002",
       "visitas": "14"
+    },
+    {
+      "url": "https://120minutes.org/video/020203/coldplay+clocks",
+      "name": "Coldplay | Clocks",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d020hcWA_Wg",
+      "youtubeId": "d020hcWA_Wg",
+      "fecha": "2002",
+      "visitas": "546951655"
+    },
+    {
+      "url": "https://120minutes.org/video/030903/robbie+williams+feel",
+      "name": "Robbie Williams, \"Feel\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iy4mXZN1Zzk",
+      "youtubeId": "iy4mXZN1Zzk",
+      "fecha": "2002",
+      "visitas": "483626375"
+    },
+    {
+      "url": "https://120minutes.org/video/041303/johnny+cash+hurt",
+      "name": "Johnny Cash | \"Hurt\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8AHCfZTRGiI",
+      "youtubeId": "8AHCfZTRGiI",
+      "fecha": "2002",
+      "visitas": "323639039"
+    },
+    {
+      "url": "https://120minutes.org/video/040603/groove+armada+purple+haze",
+      "name": "Groove Armada, \"Purple Haze\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_kE0pxRkMtQ",
+      "youtubeId": "_kE0pxRkMtQ",
+      "fecha": "2002",
+      "visitas": "45248300"
+    },
+    {
+      "url": "https://120minutes.org/video/042003/interpol+obstacle+1",
+      "name": "Interpol | \"Obstacle 1\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OC5zHACynR4",
+      "youtubeId": "OC5zHACynR4",
+      "fecha": "2002",
+      "visitas": "26543678"
+    },
+    {
+      "url": "https://120minutes.org/video/012603/moby+in+this+world",
+      "name": "Moby, \"In This World\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5wrwcEZ3Btw",
+      "youtubeId": "5wrwcEZ3Btw",
+      "fecha": "2002",
+      "visitas": "23796789"
+    },
+    {
+      "url": "https://120minutes.org/video/012603/the+white+stripes+were+going+to+be+friends",
+      "name": "The White Stripes, \"We're Going to Be Friends\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PKfD8d3XJok",
+      "youtubeId": "PKfD8d3XJok",
+      "fecha": "2002",
+      "visitas": "17628546"
+    },
+    {
+      "url": "https://120minutes.org/video/041303/the+coral+dreaming+of+you",
+      "name": "The Coral | \"Dreaming of You\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QXt723fN1ss",
+      "youtubeId": "QXt723fN1ss",
+      "fecha": "2002",
+      "visitas": "13043073"
+    },
+    {
+      "url": "https://120minutes.org/video/042003/electric+six+danger%21+high+voltage%21",
+      "name": "Electric Six | \"Danger! High Voltage!\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R-FxmoVM7X4",
+      "youtubeId": "R-FxmoVM7X4",
+      "fecha": "2002",
+      "visitas": "12178101"
+    },
+    {
+      "url": "https://120minutes.org/video/022303/the+flaming+lips+do+you+realize",
+      "name": "The Flaming Lips | Do You Realize?",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lPXWt2ESxVY",
+      "youtubeId": "lPXWt2ESxVY",
+      "fecha": "2002",
+      "visitas": "10158436"
+    },
+    {
+      "url": "https://120minutes.org/video/040603/liam+lynch+united+states+of+whatever",
+      "name": "Liam Lynch, \"United States of Whatever\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Xz7_3n7xyDg",
+      "youtubeId": "Xz7_3n7xyDg",
+      "fecha": "2002",
+      "visitas": "8166568"
+    },
+    {
+      "url": "https://120minutes.org/video/041303/beck+lost+cause",
+      "name": "Beck | \"Lost Cause\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qkNa5xzOe5U",
+      "youtubeId": "qkNa5xzOe5U",
+      "fecha": "2002",
+      "visitas": "6250948"
+    },
+    {
+      "url": "https://120minutes.org/video/042003/ladytron+seventeen",
+      "name": "Ladytron | \"Seventeen\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s6jaYJx7yeI",
+      "youtubeId": "s6jaYJx7yeI",
+      "fecha": "2002",
+      "visitas": "4464286"
+    },
+    {
+      "url": "https://120minutes.org/video/042003/the+libertines+up+the+bracket",
+      "name": "The Libertines | \"Up The Bracket\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0u_g6zNuP_I",
+      "youtubeId": "0u_g6zNuP_I",
+      "fecha": "2002",
+      "visitas": "4426830"
+    },
+    {
+      "url": "https://120minutes.org/video/010503/underworld+two+months+off",
+      "name": "Underworld, \"Two Months Off\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KsE9iXoXB6s",
+      "youtubeId": "KsE9iXoXB6s",
+      "fecha": "2002",
+      "visitas": "4343074"
+    },
+    {
+      "url": "https://120minutes.org/video/040603/the+flaming+lips+yoshimi+battles+the+pink+robots",
+      "name": "The Flaming Lips, \"Yoshimi Battles the Pink Robots\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZdDHi5SSIlM",
+      "youtubeId": "ZdDHi5SSIlM",
+      "fecha": "2002",
+      "visitas": "4117764"
+    },
+    {
+      "url": "https://120minutes.org/video/011203/thievery+corporation+the+richest+man+in+babylon",
+      "name": "Thievery Corporation | The Richest Man In Babylon",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rmWGaKgXnHM",
+      "youtubeId": "rmWGaKgXnHM",
+      "fecha": "2002",
+      "visitas": "3719000"
+    },
+    {
+      "url": "https://120minutes.org/video/041303/groove+armada+purple+haze",
+      "name": "Groove Armada | \"Purple Haze\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dnp-VyGNtcI",
+      "youtubeId": "dnp-VyGNtcI",
+      "fecha": "2002",
+      "visitas": "2740912"
+    },
+    {
+      "url": "https://120minutes.org/video/030203/hot+hot+heat+bandages",
+      "name": "Hot Hot Heat, \"Bandages\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=i_K36y-iLUk",
+      "youtubeId": "i_K36y-iLUk",
+      "fecha": "2002",
+      "visitas": "2046679"
+    },
+    {
+      "url": "https://120minutes.org/video/030203/ms+dynamite+it+takes+more",
+      "name": "Ms Dynamite, \"It Takes More\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SqCLSx9y_I0",
+      "youtubeId": "SqCLSx9y_I0",
+      "fecha": "2002",
+      "visitas": "1322548"
+    },
+    {
+      "url": "https://120minutes.org/video/041303/spoon+the+way+we+get+by",
+      "name": "Spoon | \"The Way We Get By\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jCG2XNaODnM",
+      "youtubeId": "jCG2XNaODnM",
+      "fecha": "2002",
+      "visitas": "816133"
+    },
+    {
+      "url": "https://120minutes.org/video/032303/nada+surf+inside+of+love",
+      "name": "Nada Surf, \"Inside of Love\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sW1ZJNVAc-Q",
+      "youtubeId": "sW1ZJNVAc-Q",
+      "fecha": "2002",
+      "visitas": "759560"
+    },
+    {
+      "url": "https://120minutes.org/video/031603/frou+frou+breathe+in",
+      "name": "Frou Frou | Breathe In",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oet5L-gqctk",
+      "youtubeId": "oet5L-gqctk",
+      "fecha": "2002",
+      "visitas": "707083"
+    },
+    {
+      "url": "https://120minutes.org/video/041303/tegan+and+sara+monday+monday+monday",
+      "name": "Tegan and Sara | \"Monday, Monday, Monday\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3lPrwf16jY8",
+      "youtubeId": "3lPrwf16jY8",
+      "fecha": "2002",
+      "visitas": "538529"
+    },
+    {
+      "url": "https://120minutes.org/video/030203/ben+kweller+commerce+tx",
+      "name": "Ben Kweller, \"Commerce, TX\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2aC4Ew-vd_w",
+      "youtubeId": "2aC4Ew-vd_w",
+      "fecha": "2002",
+      "visitas": "226175"
+    },
+    {
+      "url": "https://120minutes.org/video/020203/the+elms+speaking+in+tongues",
+      "name": "The Elms | Speaking In Tongues",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nrDpy0JPv0w",
+      "youtubeId": "nrDpy0JPv0w",
+      "fecha": "2002",
+      "visitas": "38515"
+    },
+    {
+      "url": "https://120minutes.org/video/011203/the+music+take+the+long+road+and+walk+it",
+      "name": "The Music | Take The Long Road and Walk It",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rX5BaHKVHLw",
+      "youtubeId": "rX5BaHKVHLw",
+      "fecha": "2002",
+      "visitas": "38348"
+    },
+    {
+      "url": "https://120minutes.org/video/031603/k+os+superstarr+pt+zero",
+      "name": "k-os | Superstarr Pt. Zero",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fC3JgbdG7Hs",
+      "youtubeId": "fC3JgbdG7Hs",
+      "fecha": "2002",
+      "visitas": "20477"
+    },
+    {
+      "url": "https://120minutes.org/video/031603/simian+la+breeze",
+      "name": "Simian | LA Breeze",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A3l4CXA1b00",
+      "youtubeId": "A3l4CXA1b00",
+      "fecha": "2002",
+      "visitas": "19892"
+    },
+    {
+      "url": "https://120minutes.org/video/032303/kinky+mirando+de+lado",
+      "name": "Kinky, \"Mirando De Lado\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GaRFAkYtReg",
+      "youtubeId": "GaRFAkYtReg",
+      "fecha": "2002",
+      "visitas": "16692"
+    },
+    {
+      "url": "https://120minutes.org/video/031404/the+strokes+someday",
+      "name": "The Strokes | Someday",
+      "youtubeUrl": "https://www.youtube.com/watch?v=knU9gRUWCno",
+      "youtubeId": "knU9gRUWCno",
+      "fecha": "2002",
+      "visitas": "98351318"
+    },
+    {
+      "url": "https://120minutes.org/video/022904/beck+the+golden+age",
+      "name": "Beck | The Golden Age",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y6zAT15vaFk",
+      "youtubeId": "Y6zAT15vaFk",
+      "fecha": "2002",
+      "visitas": "4531217"
+    },
+    {
+      "url": "https://120minutes.org/video/030605/rjd2+1976",
+      "name": "RJD2 | 1976",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Lp-xN-o6W90",
+      "youtubeId": "Lp-xN-o6W90",
+      "fecha": "2002",
+      "visitas": "2145671"
+    },
+    {
+      "url": "https://120minutes.org/video/071607/the+knife+heartbeats",
+      "name": "The Knife | Heartbeats",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pPD8Ja64mRU",
+      "youtubeId": "pPD8Ja64mRU",
+      "fecha": "2002",
+      "visitas": "14263558"
     }
   ]
 }

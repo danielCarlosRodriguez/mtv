@@ -33,14 +33,6 @@
       "visitas": "323511336"
     },
     {
-      "url": "https://120minutes.org/video/011099/radiohead+no+suprises",
-      "name": "Radiohead | \"No Suprises\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=u5CVsCnxyXg",
-      "youtubeId": "u5CVsCnxyXg",
-      "fecha": "1998",
-      "visitas": "304591451"
-    },
-    {
       "url": "https://120minutes.org/video/013199/eminem+my+name+is",
       "name": "Eminem | \"My Name Is\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=sNPnbI1arSE",
@@ -63,14 +55,6 @@
       "youtubeId": "FQlAEiCb8m0",
       "fecha": "1999",
       "visitas": "165724072"
-    },
-    {
-      "url": "https://120minutes.org/video/022899/the+cure+just+like+heaven",
-      "name": "The Cure | \"Just Like Heaven\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=n3nPiBai66M",
-      "youtubeId": "n3nPiBai66M",
-      "fecha": "1987",
-      "visitas": "152369447"
     },
     {
       "url": "https://120minutes.org/video/071899/blink+182+whats+my+age+again",
@@ -97,14 +81,6 @@
       "visitas": "128899491"
     },
     {
-      "url": "https://120minutes.org/video/022899/depeche+mode+never+let+me+down+again",
-      "name": "Depeche Mode | \"Never Let Me Down Again\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=snILjFUkk_A",
-      "youtubeId": "snILjFUkk_A",
-      "fecha": "1987",
-      "visitas": "125527546"
-    },
-    {
       "url": "https://120minutes.org/video/071899/dido+here+with+me",
       "name": "Dido | Here With Me",
       "youtubeUrl": "https://www.youtube.com/watch?v=PSu5nAQ7uZw",
@@ -113,36 +89,12 @@
       "visitas": "124283567"
     },
     {
-      "url": "https://120minutes.org/video/011099/massive+attack+teardrop",
-      "name": "Massive Attack | \"Teardrop\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=u7K72X4eo_s",
-      "youtubeId": "u7K72X4eo_s",
-      "fecha": "1998",
-      "visitas": "111499186"
-    },
-    {
-      "url": "https://120minutes.org/video/080199/bush+glycerine",
-      "name": "Bush | \"Glycerine\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=hOllF3TgAsM",
-      "youtubeId": "hOllF3TgAsM",
-      "fecha": "1995",
-      "visitas": "101239436"
-    },
-    {
       "url": "https://120minutes.org/video/011099/marilyn+manson+the+dope+show",
       "name": "Marilyn Manson | \"The Dope Show\"",
       "youtubeUrl": "https://www.youtube.com/watch?v=5R682M3ZEyk",
       "youtubeId": "5R682M3ZEyk",
       "fecha": "1999",
       "visitas": "94427460"
-    },
-    {
-      "url": "https://120minutes.org/video/041199/blink+182+dammit",
-      "name": "Blink 182 | \"Dammit\"",
-      "youtubeUrl": "https://www.youtube.com/watch?v=sT0g16_LQaQ",
-      "youtubeId": "sT0g16_LQaQ",
-      "fecha": "1997",
-      "visitas": "91399140"
     },
     {
       "url": "https://120minutes.org/video/052399/len+steal+my+sunshine",
@@ -1807,6 +1759,190 @@
       "youtubeId": "FoUzl1Tp2u0",
       "fecha": "1999",
       "visitas": "311"
+    },
+    {
+      "url": "https://120minutes.org/video/020600/bloodhound+gang+the+bad+touch",
+      "name": "Bloodhound Gang | \"The Bad Touch\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xat1GVnl8-k",
+      "youtubeId": "xat1GVnl8-k",
+      "fecha": "1999",
+      "visitas": "526868874"
+    },
+    {
+      "url": "https://120minutes.org/video/030500/slipknot+wait+bleed",
+      "name": "Slipknot | Wait & Bleed",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B1zCN0YhW1s",
+      "youtubeId": "B1zCN0YhW1s",
+      "fecha": "1999",
+      "visitas": "167525000"
+    },
+    {
+      "url": "https://120minutes.org/video/010900/lenny+kravitz+i+belong+to+you",
+      "name": "Lenny Kravitz | I belong to you",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ucvLuGgsGS8",
+      "youtubeId": "ucvLuGgsGS8",
+      "fecha": "1999",
+      "visitas": "124468321"
+    },
+    {
+      "url": "https://120minutes.org/video/013000/mr+oizo+flat+beats",
+      "name": "Mr. Oizo | Flat Beats",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qmsbP13xu6k",
+      "youtubeId": "qmsbP13xu6k",
+      "fecha": "1999",
+      "visitas": "69193259"
+    },
+    {
+      "url": "https://120minutes.org/video/060400/santana+everlast+put+your+lights+on",
+      "name": "Santana featuring Everlast | Put Your Lights On",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KCBS5EtszYI",
+      "youtubeId": "KCBS5EtszYI",
+      "fecha": "1999",
+      "visitas": "64472811"
+    },
+    {
+      "url": "https://120minutes.org/video/090300/static+x+push+it",
+      "name": "Static-X | Push It",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ps0MfBG5-Uo",
+      "youtubeId": "Ps0MfBG5-Uo",
+      "fecha": "1999",
+      "visitas": "36581096"
+    },
+    {
+      "url": "https://120minutes.org/video/040900/travis+why+does+it+always+rain+on+me",
+      "name": "Travis | Why Does It Always Rain on Me?",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PXatLOWjr-k",
+      "youtubeId": "PXatLOWjr-k",
+      "fecha": "1999",
+      "visitas": "27203669"
+    },
+    {
+      "url": "https://120minutes.org/video/061100/stone+temple+pilots+sour+girl",
+      "name": "Stone Temple Pilots | \"Sour Girl\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YxS4lqppZ6Y",
+      "youtubeId": "YxS4lqppZ6Y",
+      "fecha": "1999",
+      "visitas": "21264825"
+    },
+    {
+      "url": "https://120minutes.org/video/031200/rage+against+the+machine+sleep+now+in+the+fire",
+      "name": "Rage Against the Machine | Sleep Now in the Fire",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kl4wkIPiTcY",
+      "youtubeId": "kl4wkIPiTcY",
+      "fecha": "1999",
+      "visitas": "20308270"
+    },
+    {
+      "url": "https://120minutes.org/video/020600/smashing+pumpkins+the+everlasting+gaze",
+      "name": "Smashing Pumpkins | \"The Everlasting Gaze\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LWJYaep-0sg",
+      "youtubeId": "LWJYaep-0sg",
+      "fecha": "1999",
+      "visitas": "15426458"
+    },
+    {
+      "url": "https://120minutes.org/video/013000/enigma+gravity+of+love",
+      "name": "Enigma | Gravity of Love",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aSTV99Uy8hk",
+      "youtubeId": "aSTV99Uy8hk",
+      "fecha": "1999",
+      "visitas": "13029327"
+    },
+    {
+      "url": "https://120minutes.org/video/010900/chris+cornell+cant+change+me",
+      "name": "Chris Cornell | Can't Change Me",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XaxI41Oqdfw",
+      "youtubeId": "XaxI41Oqdfw",
+      "fecha": "1999",
+      "visitas": "9221509"
+    },
+    {
+      "url": "https://120minutes.org/video/020600/lit+miserable",
+      "name": "Lit | \"Miserable\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kMOeTLLeaDU",
+      "youtubeId": "kMOeTLLeaDU",
+      "fecha": "1999",
+      "visitas": "8605380"
+    },
+    {
+      "url": "https://120minutes.org/video/013000/apollo+four+forty+stop+the+rock",
+      "name": "Apollo Four Forty | \"Stop The Rock\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4GHN1Mu6VG0",
+      "youtubeId": "4GHN1Mu6VG0",
+      "fecha": "1999",
+      "visitas": "8440552"
+    },
+    {
+      "url": "https://120minutes.org/video/120901/chemical+brothers+hey+boy+hey+girl",
+      "name": "Chemical Brothers, \"Hey Boy, Hey Girl\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tpKCqp9CALQ",
+      "youtubeId": "tpKCqp9CALQ",
+      "fecha": "1999",
+      "visitas": "95673446"
+    },
+    {
+      "url": "https://120minutes.org/video/111101/chemical+brothers+out+of+control",
+      "name": "Chemical Brothers, \"Out Of Control\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6sOpbRL8R4g",
+      "youtubeId": "6sOpbRL8R4g",
+      "fecha": "1999",
+      "visitas": "14181613"
+    },
+    {
+      "url": "https://120minutes.org/video/111101/chemical+brothers+let+forever+be",
+      "name": "Chemical Brothers, \"Let Forever Be\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s5FyfQDO5g0",
+      "youtubeId": "s5FyfQDO5g0",
+      "fecha": "1999",
+      "visitas": "13689241"
+    },
+    {
+      "url": "https://120minutes.org/video/111101/the+verve+on+your+own",
+      "name": "The Verve, \"On Your Own\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Un1AzTkY2tQ",
+      "youtubeId": "Un1AzTkY2tQ",
+      "fecha": "1999",
+      "visitas": "1478783"
+    },
+    {
+      "url": "https://120minutes.org/video/102801/sigur+ros+vidrar+vel",
+      "name": "Sigur Ros, \"Vidrar Vel\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=akYuy2FMQk4",
+      "youtubeId": "akYuy2FMQk4",
+      "fecha": "1999",
+      "visitas": "1438882"
+    },
+    {
+      "url": "https://120minutes.org/video/033003/blur+tender",
+      "name": "Blur, \"Tender\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SaHrqKKFnSA",
+      "youtubeId": "SaHrqKKFnSA",
+      "fecha": "1999",
+      "visitas": "16822468"
+    },
+    {
+      "url": "https://120minutes.org/video/032303/blur+mor",
+      "name": "Blur, \"M.O.R.\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QEGNwMrsy30",
+      "youtubeId": "QEGNwMrsy30",
+      "fecha": "1999",
+      "visitas": "1923119"
+    },
+    {
+      "url": "https://120minutes.org/video/022303/the+flaming+lips+race+for+the+prize",
+      "name": "The Flaming Lips | Race For The Prize",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bs56ygZplQA",
+      "youtubeId": "bs56ygZplQA",
+      "fecha": "1999",
+      "visitas": "1522798"
+    },
+    {
+      "url": "https://120minutes.org/video/111907/blur+coffee+tv",
+      "name": "Blur, Coffee & TV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6oqXVx3sBOk",
+      "youtubeId": "6oqXVx3sBOk",
+      "fecha": "1999",
+      "visitas": "48955472"
     }
   ]
 }
