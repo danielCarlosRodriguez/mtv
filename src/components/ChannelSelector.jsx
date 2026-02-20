@@ -167,7 +167,7 @@ const ChannelSelector = ({ onChannelSelect }) => {
             </div>
 
             <div
-              className="flex gap-12 justify-center items-center"
+              className="flex gap-4 sm:gap-12 justify-center items-center w-full px-4"
               style={{ marginTop: "30px" }}
             >
               {/* Estilos para indicadores de focus */}
@@ -213,8 +213,8 @@ const ChannelSelector = ({ onChannelSelect }) => {
                 <img
                   src="/imagenes/logo-mtv-80.png"
                   alt="MTV 80"
-                  className="channel-logo h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
-                  style={{ maxWidth: "400px" }}
+                  className="channel-logo h-20 sm:h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  style={{ maxWidth: "30vw" }}
                 />
                 <div className="focus-indicator" />
               </button>
@@ -228,8 +228,8 @@ const ChannelSelector = ({ onChannelSelect }) => {
                 <img
                   src="/imagenes/logo-mtv-90.png"
                   alt="MTV 90"
-                  className="channel-logo h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
-                  style={{ maxWidth: "400px" }}
+                  className="channel-logo h-20 sm:h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  style={{ maxWidth: "30vw" }}
                 />
                 <div className="focus-indicator" />
               </button>
@@ -243,8 +243,8 @@ const ChannelSelector = ({ onChannelSelect }) => {
                 <img
                   src="/imagenes/logo-mtv-00.png"
                   alt="MTV 00"
-                  className="channel-logo h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
-                  style={{ maxWidth: "400px" }}
+                  className="channel-logo h-20 sm:h-32 object-contain drop-shadow-2xl hover:brightness-110 transition-all duration-300"
+                  style={{ maxWidth: "30vw" }}
                 />
                 <div className="focus-indicator" />
               </button>
