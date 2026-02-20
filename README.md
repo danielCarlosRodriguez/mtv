@@ -55,6 +55,19 @@ Si disfrutás de este proyecto y querés apoyar su desarrollo y mantenimiento, p
 - **Web:** [https://musictv2026.netlify.app/](https://musictv2026.netlify.app/)
 - **Android:** Descarga el APK desde el sitio web
 
+## 📦 Distribución del APK
+
+### Descarga directa (Netlify)
+- **URL:** [https://musictv2026.netlify.app/mtv2026.apk](https://musictv2026.netlify.app/mtv2026.apk)
+
+### Google Drive
+- **Cuenta:** danielcarlosrodriguez@gmail.com
+- **Carpeta:** [https://drive.google.com/drive/u/1/folders/11vKQTIC3PEKOUtvGESEc83LQWMfAQJ0H](https://drive.google.com/drive/u/1/folders/11vKQTIC3PEKOUtvGESEc83LQWMfAQJ0H)
+- **Link directo:** [https://drive.google.com/uc?export=download&id=1EP6Sm7pqHubDQa6mCaB6qNkGtDZp237h](https://drive.google.com/uc?export=download&id=1EP6Sm7pqHubDQa6mCaB6qNkGtDZp237h)
+
+### Downloader
+- **Código:** `2894258`
+
 ## ⚖️ Aviso Legal
 
 Este es un **proyecto fan-made no oficial** y **no está afiliado con MTV**, ViacomCBS, o ninguna de sus filiales. Todos los videos son propiedad de sus respectivos dueños y se reproducen a través de YouTube. Este proyecto no genera ingresos y es puramente recreativo y educativo.
