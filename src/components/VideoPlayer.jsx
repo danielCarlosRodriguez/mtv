@@ -61,13 +61,19 @@ const VideoPlayer = ({ videoId, onVideoEnd, onError, onUnmute }) => {
 
   return (
     <div className="absolute inset-0 w-full h-full bg-black">
-      <div 
-        ref={containerRef} 
+      <div
+        ref={containerRef}
         className="w-full h-full"
         style={{
           overflow: 'hidden',
           position: 'relative',
         }}
+      />
+      {/* Overlay transparente: intercepta clicks/taps para que no lleguen al iframe
+          de YouTube y no se pueda pausar el video haciendo click sobre él */}
+      <div
+        className="absolute inset-0 w-full h-full"
+        style={{ zIndex: 10 }}
       />
       {/* CSS para ocultar recomendaciones de YouTube cuando el video termina */}
       <style>{`

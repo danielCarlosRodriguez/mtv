@@ -156,6 +156,16 @@ export function useYouTubePlayer(videoId, options = {}) {
             playerRef.current = event.target;
             setIsMuted(true); // Confirmar que está mute
 
+            // Forzar subtítulos apagados: cc_load_policy solo evita que YouTube
+            // los prenda "de oficio", pero no anula una preferencia de cuenta/dispositivo
+            // ya guardada (p. ej. subtítulos automáticos activados en el Smart TV).
+            // unloadModule sí anula esa preferencia porque actúa después de la carga.
+            try {
+              event.target.unloadModule('captions');
+            } catch (err) {
+              // Ignorar errores
+            }
+
             // Verificar estado mute
             try {
               const muted = event.target.isMuted();
@@ -210,7 +220,15 @@ export function useYouTubePlayer(videoId, options = {}) {
               }
             } else if (state === window.YT.PlayerState.PLAYING) {
               setPlayerReady(true);
-              
+
+              // Reforzar apagado de subtítulos: algunos dispositivos/cuentas
+              // reactivan el track de captions justo al empezar a reproducir
+              try {
+                event.target.unloadModule('captions');
+              } catch (err) {
+                // Ignorar errores
+              }
+
               // Verificar estado mute cuando empieza a reproducir
               try {
                 const muted = event.target.isMuted();
