@@ -9,6 +9,9 @@ export function weightedRandomSelect(items) {
   }
 
   // Convertir visitas a números y crear pesos
+  // Se usa la raíz cuadrada para amortiguar el peso: sin esto, un video con
+  // varios miles de millones de visitas domina casi toda la probabilidad
+  // del grupo frente al resto del top, haciendo que aparezca demasiado seguido.
   const weights = items.map((item) => {
     const visitas = item.visitas || item['Cantidad de visitas'];
     if (visitas === null || visitas === undefined || visitas === 'null') {
@@ -16,7 +19,7 @@ export function weightedRandomSelect(items) {
     }
     // Convertir string a número, eliminar puntos y comas
     const numero = parseFloat(String(visitas).replace(/[.,]/g, ''));
-    return isNaN(numero) ? 0 : numero;
+    return isNaN(numero) ? 0 : Math.sqrt(numero);
   });
 
   // Calcular la suma total de pesos
